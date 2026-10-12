@@ -12,6 +12,22 @@ Rscript datakeskus_vaikutukset.R 12 5     # 12 mrd. €, rakennusaika 5 vuotta
 
 Tai R/RStudio: `source("datakeskus_vaikutukset.R")`. Vain base R, ei lisäpaketteja.
 
+## Verkkosovellus (Shiny)
+
+Kansiossa `app/` on Shiny-sovellus, jossa parametrit annetaan lomakkeella ja tulokset
+näytetään tunnuslukuina, kuvina ja taulukoina (myös CSV-lataus). Sovellus käyttää samaa
+laskentamallia kuin komentoriviskripti.
+
+- Julkaistu versio: <https://mzrantal.github.io/Datakeskusten-vaikutukset/>
+- Paikallinen ajo repositorion juuresta: `shiny::runApp("app")` (vaatii paketit `shiny` ja `bslib`)
+
+Julkaisu tehdään automaattisesti GitHub Actionsilla (`.github/workflows/shinylive.yml`)
+aina, kun sovellus tai malli muuttuu. Shinylive ajaa R:n käyttäjän selaimessa, joten
+palvelinta ei tarvita. Ensimmäisellä kerralla GitHub Pages pitää ottaa käyttöön:
+*Settings → Pages → Build and deployment → Source: GitHub Actions*.
+
+## Tulokset
+
 Tulokset esitetään kolmessa skenaariossa (alhainen / keskimmäinen / korkea):
 
 1. BKT-vaikutus rakennusvaiheessa (C + I − M: tuodut IT-laitteet eivät kasvata BKT:tä)

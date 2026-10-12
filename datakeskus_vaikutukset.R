@@ -249,77 +249,83 @@ tulosta_taulukko <- function(otsikko, rivit) {
   }
 }
 
-aja_laskelma <- function(inv, rakennusvuodet = P$rakennusvuodet) {
-  P$rakennusvuodet <<- rakennusvuodet
-  t <- lapply(1:3, function(s) laske(inv, s))
+# Muodostaa tulostaulukot (muotoillut merkkijonot) kolmelle skenaariolle.
+# Palauttaa listan: t = laske()-tulokset, taulukot = list(otsikko, rivit).
+tulostaulukot <- function(inv, p = P) {
+  t <- lapply(1:3, function(s) laske(inv, s, p))
   g <- function(f, des = 0) sapply(t, function(x) fmt(f(x), des))
   pros <- function(f, taso, des = 2) sapply(t, function(x) paste0(fmt(100 * f(x) / taso, des), " %"))
-  ky <- P$kayttovuodet
+  ky <- p$kayttovuodet
 
-  cat("\n=====================================================================\n")
-  cat(sprintf(" DATAKESKUSINVESTOINTI %s MRD. € - VAIKUTUKSET SUOMEN TALOUTEEN\n", fmt(inv, 2)))
-  cat("=====================================================================\n")
-  cat(sprintf("Rakennusaika %d v, kumulatiivinen tarkastelu %d käyttövuotta.\n",
-              P$rakennusvuodet, ky))
-  cat(sprintf("Sähköteho %s MW, sähkönkulutus %s TWh/v (keskimmäinen skenaario).\n",
-              fmt(t[[2]]$mw), fmt(t[[2]]$sahko_twh, 2)))
-
-  tulosta_taulukko("1. BKT-VAIKUTUS, RAKENNUSVAIHE (M€, koko rakennusaika)", list(
-    "Investoinnit (I)"                = g(function(x) x$I),
-    "Tuonti: laitteet ja materiaalit (-M)" = g(function(x) -x$M_inv),
-    "Yksityinen kulutus (C)"          = g(function(x) x$C_rak),
-    "Kulutuksen tuontisisältö (-M)"   = g(function(x) -x$M_C_rak),
-    "BKT-vaikutus yhteensä"           = g(function(x) x$bkt_rak),
-    "BKT-vaikutus / vuosi"            = g(function(x) x$bkt_rak_v),
-    "  % BKT:sta / vuosi"             = pros(function(x) x$bkt_rak_v, P$bkt_taso, 3),
-    "BKT-vaikutus / investoitu €"     = g(function(x) x$bkt_rak / x$I, 2)
-  ))
-
-  tulosta_taulukko("2. BKT-VAIKUTUS, KÄYTTÖVAIHE (M€ / vuosi)", list(
-    "Palveluvienti emoyhtiölle (X)"   = g(function(x) x$X),
-    "  josta toimintakulut"           = g(function(x) x$opex),
-    "Tuontisähkö (-M)"                = g(function(x) -x$M_sahko),
-    "Yksityinen kulutus (C)"          = g(function(x) x$C_kaytto),
-    "Kulutuksen tuontisisältö (-M)"   = g(function(x) -x$M_C_kaytto),
-    "BKT-vaikutus / vuosi"            = g(function(x) x$bkt_kaytto),
-    "  % BKT:sta"                     = pros(function(x) x$bkt_kaytto, P$bkt_taso, 3)
-  ))
-
-  tulosta_taulukko("3. TYÖLLISYYS (henkilötyövuotta, suora + epäsuora)", list(
-    "Rakennusvaihe yhteensä"          = g(function(x) x$rak_htv),
-    "  josta Suomessa asuvat"         = g(function(x) x$rak_htv_suomi),
-    "Rakennusvaihe / vuosi"           = g(function(x) x$rak_htv_v),
-    "  % työllisistä / vuosi"              = pros(function(x) x$rak_htv_v, P$tyolliset, 3),
-    "Käyttövaihe / vuosi"             = g(function(x) x$kaytto_htv),
-    "  josta suorat"                  = g(function(x) x$suorat_htv),
-    "  % työllisistä"                 = pros(function(x) x$kaytto_htv, P$tyolliset, 3)
-  ))
-
-  verorivit <- function(kentta) {
+  verorivit <- function(kentta, kunnat) {
     nimet <- c(Yhteisovero = "Yhteisövero", ALV_netto = "ALV (netto)",
                Tulovero = "Tulovero", Kiinteistovero = "Kiinteistövero",
                Sahkovero = "Sähkövero")
     r <- lapply(names(nimet), function(n) g(function(x) x[[kentta]][n], 1))
     names(r) <- nimet
     r[["Yhteensä"]] <- g(function(x) sum(x[[kentta]]), 1)
+    r[["  josta valtio"]] <- g(function(x) sum(x[[kentta]]) - x[[kunnat]], 1)
+    r[["  josta kunnat"]] <- g(function(x) x[[kunnat]], 1)
     r
   }
 
-  rak <- verorivit("vero_rak")
-  rak[["  josta valtio"]] <- g(function(x) sum(x$vero_rak) - x$kunnat_rak, 1)
-  rak[["  josta kunnat"]] <- g(function(x) x$kunnat_rak, 1)
-  tulosta_taulukko("4. JULKISEN TALOUDEN TULOT, RAKENNUSVAIHE (M€, koko rakennusaika)", rak)
+  taulukot <- list(
+    list(otsikko = "1. BKT-VAIKUTUS, RAKENNUSVAIHE (M€, koko rakennusaika)", rivit = list(
+      "Investoinnit (I)"                = g(function(x) x$I),
+      "Tuonti: laitteet ja materiaalit (-M)" = g(function(x) -x$M_inv),
+      "Yksityinen kulutus (C)"          = g(function(x) x$C_rak),
+      "Kulutuksen tuontisisältö (-M)"   = g(function(x) -x$M_C_rak),
+      "BKT-vaikutus yhteensä"           = g(function(x) x$bkt_rak),
+      "BKT-vaikutus / vuosi"            = g(function(x) x$bkt_rak_v),
+      "  % BKT:sta / vuosi"             = pros(function(x) x$bkt_rak_v, p$bkt_taso, 3),
+      "BKT-vaikutus / investoitu €"     = g(function(x) x$bkt_rak / x$I, 2)
+    )),
+    list(otsikko = "2. BKT-VAIKUTUS, KÄYTTÖVAIHE (M€ / vuosi)", rivit = list(
+      "Palveluvienti emoyhtiölle (X)"   = g(function(x) x$X),
+      "  josta toimintakulut"           = g(function(x) x$opex),
+      "Tuontisähkö (-M)"                = g(function(x) -x$M_sahko),
+      "Yksityinen kulutus (C)"          = g(function(x) x$C_kaytto),
+      "Kulutuksen tuontisisältö (-M)"   = g(function(x) -x$M_C_kaytto),
+      "BKT-vaikutus / vuosi"            = g(function(x) x$bkt_kaytto),
+      "  % BKT:sta"                     = pros(function(x) x$bkt_kaytto, p$bkt_taso, 3)
+    )),
+    list(otsikko = "3. TYÖLLISYYS (henkilötyövuotta, suora + epäsuora)", rivit = list(
+      "Rakennusvaihe yhteensä"          = g(function(x) x$rak_htv),
+      "  josta Suomessa asuvat"         = g(function(x) x$rak_htv_suomi),
+      "Rakennusvaihe / vuosi"           = g(function(x) x$rak_htv_v),
+      "  % työllisistä / vuosi"         = pros(function(x) x$rak_htv_v, p$tyolliset, 3),
+      "Käyttövaihe / vuosi"             = g(function(x) x$kaytto_htv),
+      "  josta suorat"                  = g(function(x) x$suorat_htv),
+      "  % työllisistä"                 = pros(function(x) x$kaytto_htv, p$tyolliset, 3)
+    )),
+    list(otsikko = "4. JULKISEN TALOUDEN TULOT, RAKENNUSVAIHE (M€, koko rakennusaika)",
+         rivit = verorivit("vero_rak", "kunnat_rak")),
+    list(otsikko = "5. JULKISEN TALOUDEN TULOT, KÄYTTÖVAIHE (M€ / vuosi)",
+         rivit = verorivit("vero_kaytto", "kunnat_kaytto")),
+    list(otsikko = sprintf("6. KUMULATIIVISET VEROTULOT (rakennus + %d käyttövuotta, M€)", ky), rivit = list(
+      "Verotulot yhteensä"              = g(function(x) sum(x$vero_rak) + ky * sum(x$vero_kaytto)),
+      "  % investoinnista"              = pros(function(x) sum(x$vero_rak) + ky * sum(x$vero_kaytto), inv * 1000, 1),
+      "  josta sähkövero"               = g(function(x) ky * x$vero_kaytto["Sahkovero"])
+    ))
+  )
+  list(t = t, taulukot = taulukot)
+}
 
-  kay <- verorivit("vero_kaytto")
-  kay[["  josta valtio"]] <- g(function(x) sum(x$vero_kaytto) - x$kunnat_kaytto, 1)
-  kay[["  josta kunnat"]] <- g(function(x) x$kunnat_kaytto, 1)
-  tulosta_taulukko("5. JULKISEN TALOUDEN TULOT, KÄYTTÖVAIHE (M€ / vuosi)", kay)
+aja_laskelma <- function(inv, rakennusvuodet = P$rakennusvuodet, p = P) {
+  p$rakennusvuodet <- rakennusvuodet
+  tt <- tulostaulukot(inv, p)
+  t <- tt$t
+  ky <- p$kayttovuodet
 
-  tulosta_taulukko(sprintf("6. KUMULATIIVISET VEROTULOT (rakennus + %d käyttövuotta, M€)", ky), list(
-    "Verotulot yhteensä"              = g(function(x) sum(x$vero_rak) + ky * sum(x$vero_kaytto)),
-    "  % investoinnista"              = pros(function(x) sum(x$vero_rak) + ky * sum(x$vero_kaytto), inv * 1000, 1),
-    "  josta sähkövero"               = g(function(x) ky * x$vero_kaytto["Sahkovero"])
-  ))
+  cat("\n=====================================================================\n")
+  cat(sprintf(" DATAKESKUSINVESTOINTI %s MRD. € - VAIKUTUKSET SUOMEN TALOUTEEN\n", fmt(inv, 2)))
+  cat("=====================================================================\n")
+  cat(sprintf("Rakennusaika %d v, kumulatiivinen tarkastelu %d käyttövuotta.\n",
+              p$rakennusvuodet, ky))
+  cat(sprintf("Sähköteho %s MW, sähkönkulutus %s TWh/v (keskimmäinen skenaario).\n",
+              fmt(t[[2]]$mw), fmt(t[[2]]$sahko_twh, 2)))
+
+  for (tb in tt$taulukot) tulosta_taulukko(tb$otsikko, tb$rivit)
 
   m <- t[[2]]
   cat("\n7. VERTAILU RAMBOLLIN BRUTTOLUKUIHIN (keskimmäinen skenaario)\n")
@@ -364,8 +370,10 @@ aja_laskelma <- function(inv, rakennusvuodet = P$rakennusvuodet) {
 }
 
 # -----------------------------------------------------------------------------
-# AJO
+# AJO (ohitetaan, kun tiedosto ladataan Shiny-sovellukseen:
+# options(datakeskus.vain_funktiot = TRUE))
 # -----------------------------------------------------------------------------
+if (!isTRUE(getOption("datakeskus.vain_funktiot"))) {
 argumentit <- commandArgs(trailingOnly = TRUE)
 if (length(argumentit) >= 1) {
   investointi <- jasenna_luku(argumentit[1])
@@ -377,3 +385,4 @@ if (length(argumentit) >= 1) {
 }
 
 tulokset <- aja_laskelma(investointi, rakennusaika)
+}

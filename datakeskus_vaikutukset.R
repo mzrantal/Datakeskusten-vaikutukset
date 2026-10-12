@@ -4,7 +4,8 @@
 # julkiseen talouteen
 #
 # Laskelma perustuu muistioon "Datakeskusten vaikutus Suomen talouteen"
-# (päivitetty 9/2026). Muistion luvut on esitetty pääosin Rambollin/FDCA:n
+# (päivitetty 9/2026, tiedosto lahteet/Datakeskusten_vaikutus_Suomen_talouteen.docx).
+# Muistion luvut on esitetty pääosin Rambollin/FDCA:n
 # 12 mrd. euron investointikokonaisuudelle, joten ne skaalataan tässä
 # lineaarisesti käyttäjän antamaan investoinnin suuruuteen.
 #

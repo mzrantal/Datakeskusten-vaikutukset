@@ -2,7 +2,7 @@
 
 `datakeskus_vaikutukset.R` laskee datakeskusinvestoinnin vaikutuksen Suomen BKT:hen,
 työllisyyteen ja julkisen talouden tuloihin muistion *Datakeskusten vaikutus Suomen
-talouteen* (9/2026) lukujen pohjalta. Käyttäjältä kysytään investoinnin suuruus
+talouteen* (9/2026, [`lahteet/Datakeskusten_vaikutus_Suomen_talouteen.docx`](lahteet/Datakeskusten_vaikutus_Suomen_talouteen.docx)) lukujen pohjalta. Käyttäjältä kysytään investoinnin suuruus
 (mrd. €) ja rakennusaika; muistion 12 mrd. € luvut skaalataan lineaarisesti.
 
 ```sh

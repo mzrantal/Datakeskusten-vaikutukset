@@ -70,28 +70,42 @@ cat("=====================================================================\n")
 for (v in VUODET) cat(sprintf("%d: %s mrd. €\n", v, fmt(INV[[as.character(v)]], 2)))
 
 # =============================================================================
-# 2. INVESTOINTILAJIT (kansantalouden tilinpidon P51K-luokitus)
+# 2. INVESTOINTILAJIT
 # =============================================================================
 # Muistion taulukko "Datakeskushankkeen pääomamenoista" [M]:
-#   IT- ja palvelininfrastruktuuri            n. 65-75 %  (koneet/laitteet)
-#   Talotekniikka ja sähköinfrastruktuuri      n. 15-20 %  (koneet/laitteet)
-#   Maanrakennus, perustus ja kuorirakenteet   n. 10-15 %  (rakennusinvestoinnit)
-# "T&K-investoinnit" ja "Asejärjestelmät" eivät kuulu tähän fyysiseen
-# konesali-investointiin [O] - asetettu nollaan.
-# Maanrakennus-erä jaetaan edelleen Maa ja vesi / Rakennukset -suhteella
-# n. 37,5 % / 62,5 % [O, johdettu muistion rakennuskustannuserittelystä].
+#   IT- ja palvelininfrastruktuuri            n. 65-75 %  (lähes 0 € kotimaista,
+#                                                           tuodaan ulkomailta)
+#   Talotekniikka ja sähköinfrastruktuuri      n. 15-20 %  (laitteet ulkomailta,
+#                                                           Suomeen asennustyö)
+#   Maanrakennus, perustus ja kuorirakenteet   n. 10-15 %  (pääosin kotimaista)
+#
+# IT- ja palvelininfrastruktuuri sekä Talotekniikka ja sähköinfrastruktuuri
+# esitetään tässä OMINA riveinään (ei yhdistettynä "Koneet, laitteet"
+# -luokkaan), koska ne eroavat merkittävästi kotimaisuusasteeltaan - IT-infra
+# on lähes 100 % tuontia, talotekniikassa Suomeen jää ainakin asennustyö.
+#
+# "T&K-investoinnit" ei kuulu tähän fyysiseen konesali-investointiin [O] -
+# asetettu nollaan. "Maanrakennus, perustus ja kuorirakenteet" -erä jaetaan
+# edelleen Maa ja vesi / Muut talorakennukset -luokkiin muistion tarkemman
+# rakennuskustannusten erittelyn suhteella [O, johdettu M:stä]:
+#   Tontti, maarakennus, esivalmistelu   5-10 % rakentamisesta -> "Maa ja vesi"
+#   Rungon rakenne (perustukset, seinät,
+#     laatat)                           10-15 % rakentamisesta -> "Rakennukset"
+#   => suhde n. 37,5 % / 62,5 %
 OSUUS_IT            <- c(0.75, 0.70, 0.65)
 OSUUS_TALOTEKNIIKKA  <- c(0.15, 0.175, 0.20)
 OSUUS_MAANRAKENNUS   <- c(0.10, 0.125, 0.15)
 MAA_JA_VESI_OSUUS    <- 0.375
 
 laske_investointilajit <- function(inv_mrd) {
-  koneet_laitteet <- inv_mrd * (OSUUS_IT + OSUUS_TALOTEKNIIKKA)
+  it_infra        <- inv_mrd * OSUUS_IT
+  talotekniikka   <- inv_mrd * OSUUS_TALOTEKNIIKKA
   rakennus_yht    <- inv_mrd * OSUUS_MAANRAKENNUS
   maa_ja_vesi     <- rakennus_yht * MAA_JA_VESI_OSUUS
   muut_talorak    <- rakennus_yht - maa_ja_vesi
   list(
-    koneet_laitteet = setNames(koneet_laitteet, SKENAARIOT),
+    it_infra        = setNames(it_infra, SKENAARIOT),
+    talotekniikka   = setNames(talotekniikka, SKENAARIOT),
     rakennus_yht    = setNames(rakennus_yht, SKENAARIOT),
     maa_ja_vesi     = setNames(maa_ja_vesi, SKENAARIOT),
     muut_talorak    = setNames(muut_talorak, SKENAARIOT)
@@ -102,7 +116,7 @@ investointilajit <- lapply(VUODET, function(v) laske_investointilajit(INV[[as.ch
 names(investointilajit) <- VUODET
 
 cat("\n=====================================================================\n")
-cat(" INVESTOINTILAJIT (P51K-luokitus), mrd. € - keskimmäinen skenaario\n")
+cat(" INVESTOINTILAJIT, mrd. € - keskimmäinen skenaario\n")
 cat("=====================================================================\n")
 for (v in VUODET) {
   il <- investointilajit[[as.character(v)]]
@@ -110,8 +124,9 @@ for (v in VUODET) {
   cat(sprintf("  Rakennusinvestoinnit yht.:            %s mrd. €\n", fmt(il$rakennus_yht["Keskimmäinen"], 2)))
   cat(sprintf("    Muut talorakennukset kuin asuinrak.: %s mrd. €\n", fmt(il$muut_talorak["Keskimmäinen"], 2)))
   cat(sprintf("    Maa ja vesi:                          %s mrd. €\n", fmt(il$maa_ja_vesi["Keskimmäinen"], 2)))
-  cat(sprintf("  Koneet, laitteet, kuljetusvälineet:    %s mrd. €\n", fmt(il$koneet_laitteet["Keskimmäinen"], 2)))
-  cat(sprintf("  T&K-investoinnit / Asejärjestelmät:    0 mrd. €\n"))
+  cat(sprintf("  Talotekniikka ja sähköinfrastruktuuri:  %s mrd. €\n", fmt(il$talotekniikka["Keskimmäinen"], 2)))
+  cat(sprintf("  IT- ja palvelininfrastruktuuri:         %s mrd. €\n", fmt(il$it_infra["Keskimmäinen"], 2)))
+  cat(sprintf("  T&K-investoinnit:                      0 mrd. €\n"))
 }
 
 # =============================================================================
@@ -197,10 +212,13 @@ il_df <- bind_rows(lapply(VUODET, function(v) {
   data.frame(
     Vuosi = factor(v, levels = VUODET),
     Laji = factor(
-      c("Koneet, laitteet, kuljetusvälineet", "Muut talorakennukset kuin asuinrak.", "Maa ja vesi"),
-      levels = c("Maa ja vesi", "Muut talorakennukset kuin asuinrak.", "Koneet, laitteet, kuljetusvälineet")
+      c("IT- ja palvelininfrastruktuuri", "Talotekniikka ja sähköinfrastruktuuri",
+        "Muut talorakennukset kuin asuinrak.", "Maa ja vesi"),
+      levels = c("Maa ja vesi", "Muut talorakennukset kuin asuinrak.",
+                 "Talotekniikka ja sähköinfrastruktuuri", "IT- ja palvelininfrastruktuuri")
     ),
-    Mrd = c(il$koneet_laitteet["Keskimmäinen"], il$muut_talorak["Keskimmäinen"], il$maa_ja_vesi["Keskimmäinen"])
+    Mrd = c(il$it_infra["Keskimmäinen"], il$talotekniikka["Keskimmäinen"],
+            il$muut_talorak["Keskimmäinen"], il$maa_ja_vesi["Keskimmäinen"])
   )
 }))
 il_yhteensa <- il_df %>% group_by(Vuosi) %>% summarise(Yht = sum(Mrd), .groups = "drop")
@@ -208,19 +226,20 @@ il_yhteensa <- il_df %>% group_by(Vuosi) %>% summarise(Yht = sum(Mrd), .groups =
 kuvio1 <- ggplot(il_df, aes(x = Vuosi, y = Mrd, fill = Laji)) +
   geom_col(width = 0.6, color = "white", linewidth = 0.3) +
   geom_text(aes(label = fmt(Mrd, 1)), position = position_stack(vjust = 0.5),
-            color = "white", size = 3.5, fontface = "bold") +
+            color = "white", size = 3.3, fontface = "bold") +
   geom_text(data = il_yhteensa, aes(x = Vuosi, y = Yht, label = sprintf("Yhteensä %s mrd. €", fmt(Yht, 1))),
             inherit.aes = FALSE, vjust = -0.6, fontface = "bold", size = 4) +
   scale_fill_manual(values = c(
     "Maa ja vesi" = "#c6dbef",
     "Muut talorakennukset kuin asuinrak." = "#6baed6",
-    "Koneet, laitteet, kuljetusvälineet" = "#08519c"
+    "Talotekniikka ja sähköinfrastruktuuri" = "#2171b5",
+    "IT- ja palvelininfrastruktuuri" = "#08306b"
   ), name = "Investointilaji") +
   scale_y_continuous(labels = label_number(suffix = " mrd. €", decimal.mark = ","),
                       expand = expansion(mult = c(0, 0.12))) +
   labs(
     title = "Datakeskusinvestointien jakautuminen investointilajeihin",
-    subtitle = "Keskimmäinen skenaario - T&K-investoinnit ja asejärjestelmät: 0",
+    subtitle = "Keskimmäinen skenaario - T&K-investoinnit: 0",
     x = "Valmistumisvuosi", y = "Investointi (mrd. €)",
     caption = "Lähde: Dataikkuna (xlsx) + Datakeskusten_vaikutus_Suomen_talouteenV3 (docx)"
   ) +

@@ -31,7 +31,7 @@ RUUDUKKO <- "#e4e3df"
 # -----------------------------------------------------------------------------
 SKENAARIOPARAMETRIT <- list(
   kotimainen_osuus  = list(nimi = "Kotimainen osuus investoinnista (%)", skaala = 0.01, askel = 1),
-  kayttoaste        = list(nimi = "Käyttöaste (%)", skaala = 0.01, askel = 1),
+  kayttoaste        = list(nimi = "Datakeskuksen käyttöaste %", skaala = 0.01, askel = 1),
   sahkon_hinta      = list(nimi = "Sähkön hinta + siirto (€/MWh)", skaala = 1, askel = 5),
   voittolisa        = list(nimi = "Siirtohinnoittelun voittolisä (%)", skaala = 0.01, askel = 0.5),
   tuontisahko_osuus = list(nimi = "Tuontisähkön osuus (%) [O]", skaala = 0.01, askel = 1)

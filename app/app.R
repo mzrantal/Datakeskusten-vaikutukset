@@ -39,6 +39,7 @@ SKENAARIOPARAMETRIT <- list(
 YKSITTAISPARAMETRIT <- list(
   sahkovero             = list(nimi = "Sähkövero (€/MWh)", skaala = 1, askel = 0.01),
   kulutus_tuontisisalto = list(nimi = "Kulutuksen tuontisisältö (%) [O]", skaala = 0.01, askel = 1),
+  ulkom_kulutussuhde    = list(nimi = "Ulkom. työntekijän kulutussuhde kotim. työntekijään (%) [O]", skaala = 0.01, askel = 5),
   yhteisoveroaste       = list(nimi = "Yhteisöveroaste (%)", skaala = 0.01, askel = 1),
   bkt_taso              = list(nimi = "Suomen BKT (M€) [O]", skaala = 1, askel = 1000),
   tyolliset             = list(nimi = "Työllisten määrä [O]", skaala = 1, askel = 10000)

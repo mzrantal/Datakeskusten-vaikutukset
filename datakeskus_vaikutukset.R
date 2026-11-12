@@ -62,6 +62,13 @@ P <- list(
   rak_keskipalkka       = c(45000, 45000, 45000),
   # Suomessa asuvien työntekijöiden osuus [M, Hukkanen & Syväkuru]
   suomalaisten_osuus    = c(0.50, 0.60, 0.70),
+  # Ulkomailla asuvan (ei-Suomessa-asuvan) rakennustyöntekijän Suomeen
+  # kohdistuvan kulutuksen (majoitus, ruoka, paikalliset palvelut) suhde
+  # Suomessa asuvan työntekijän kulutukseen samasta palkkaeurosta - loppu
+  # palkasta oletetaan säästettävän/lähetettävän kotimaahan. 0 = ei
+  # kulutusta Suomessa (aiempi oletus), 1 = kuluttaa yhtä paljon kuin
+  # Suomessa asuva. [O]
+  ulkom_kulutussuhde    = c(0.50, 0.50, 0.50),
   # Osuus palkoista, joka päätyy kulutukseen verojen jälkeen [M]
   kulutusosuus          = c(0.60, 0.625, 0.65),
   # Yksityisen kulutuksen tuontisisältö [O]
@@ -176,7 +183,13 @@ laske <- function(inv, s, p = P) {
 
   rak_htv      <- inv * p$rak_htv_per_mrd[s]
   rak_palkat   <- rak_htv * p$rak_keskipalkka[s] / 1e6
-  C_rak        <- rak_palkat * p$kulutusosuus[s] * p$suomalaisten_osuus[s]
+  # Palkkapainotettu "kotimaiseksi laskettava" kulutusosuus: Suomessa asuvat
+  # kuluttavat täysimääräisesti, ulkomailla asuvat ulkom_kulutussuhde-osuuden
+  # verran siitä. suomalaisten_osuus = 1 tai ulkom_kulutussuhde = 1 palauttaa
+  # saman tuloksen kuin ennen tätä yleistystä.
+  kotim_palkkaosuus <- p$suomalaisten_osuus[s] +
+    (1 - p$suomalaisten_osuus[s]) * p$ulkom_kulutussuhde[s]
+  C_rak        <- rak_palkat * p$kulutusosuus[s] * kotim_palkkaosuus
   M_C_rak      <- C_rak * p$kulutus_tuontisisalto[s]
   bkt_rak      <- I + C_rak - M_inv - M_C_rak
 

@@ -76,7 +76,10 @@ P <- list(
 
   # --- Rakennusvaihe: verotulot (M€ per 12 mrd. €) --------------------------
   rak_yhteisovero_12    = c(25, 42, 60),    # urakoitsijat, toimittajat [M]
-  rak_alv_12            = c(20, 33, 45),    # nettona, työntekijöiden kulutus [M]
+  # Nettona valtiolle jäävä ALV työntekijöiden Suomeen kohdistuvasta kulutuksesta:
+  # 12 mrd. €:n investoinnilla kulutus on 0,91 / 1,01 / 1,12 mrd. € x tehollinen
+  # ALV-osuus 15 % (sama kuin käyttövaiheessa) [O]
+  rak_alv_12            = c(137, 152, 168),
   rak_tulovero_12       = c(210, 315, 420), # valtio + kunnat [M]
   rak_tulovero_valtio   = c(2/3, 2/3, 2/3), # valtion osuus tuloverosta [M]
   # Rakennusaikainen kiinteistövero = osuus käyttövaiheen vuosiverosta [M]

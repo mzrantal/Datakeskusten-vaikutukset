@@ -133,7 +133,7 @@ ui <- page_sidebar(
   )),
 
   card(
-    card_header("Vertailu Rambollin bruttolukuihin ja huomioita"),
+    card_header("Huomioita"),
     uiOutput("huomiot")
   )
 )
@@ -283,13 +283,7 @@ server <- function(input, output, session) {
   })
 
   output$huomiot <- renderUI({
-    r <- tulos(); m <- r$t[[2]]
     tagList(
-      tags$p(sprintf("Rakennusvaiheen verotulot: Ramboll %s M€, tämä laskelma %s M€. ",
-                     fmt(RAMBOLL$verotulot * r$inv), fmt(sum(m$vero_rak))),
-             sprintf("Käyttövaiheen liikevaihto: Ramboll %s M€/v, Suomeen kirjautuva palveluvienti %s M€/v.",
-                     fmt(RAMBOLL$liikevaihto * r$inv), fmt(m$X)),
-             "Ero johtuu siitä, ettei tämä laskelma huomioi ALV-palautuksia bruttona ja siirtohinnoittelun vuoksi Suomen tytäryhtiölle kirjautuu vain kulut + voittolisä."),
       tags$ul(
         tags$li("Sähkövero on käyttövaiheen suurin verotulo. Jos datakeskukset verotetaan alemmassa sähköveroluokassa, muuta sähköveron arvoa kohdassa Muut parametrit."),
         tags$li("ALV-palautukset eivät ole valtion tappio, sillä ne palauttavat jo tilitetyn veron; laskelmassa käytetään netto-ALV:tä."),

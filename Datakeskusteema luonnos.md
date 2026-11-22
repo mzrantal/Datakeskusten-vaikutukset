@@ -1,16 +1,16 @@
-# Datakeskusinvestoinnit kansantaloudessa: suuri investointi, rajallinen kotimainen arvonlisäys
+# Datakeskusinvestointien kansantaloudelliset vaikutukset
 
-*Luonnos Taloudellisen katsauksen boksiin (keskeneräinen). Kohdat, joissa lukee **\[TÄYDENNETTÄVÄ: …\]**, vaativat työtä.*
+*Luonnos Taloudellisen katsauksen teemaan (keskeneräinen). Kohdat, joissa lukee **\[TÄYDENNETTÄVÄ: …\]**, vaativat työtä.*
 
-**Suomeen on ilmoitettu viime vuosina kymmenien miljardien eurojen datakeskusinvestoinnit, mutta niiden vaikutus bruttokansantuotteeseen on selvästi investoinnin kokoa pienempi. Kansainvälisten selvitysten mukaan noin 70–80 % investoinnista on IT-laitteistoa, joka tuodaan ulkomailta, joten Suomen arvonlisäykseen kirjautuu vain kotimaisen rakennus-, asennus- ja toimitustyön osuus. Rakentamisen vaikutus on väliaikainen, ja käyttövaiheessa suoria työpaikkoja syntyy vähän. Kerrannaisvaikutukset ovat bruttolukuja, joista osa syrjäyttää muuta toimintaa, joten nettovaikutus jää pienemmäksi kuin ilmoitetuissa vaikutusarvioissa.**
+Suomeen on ilmoitettu viime vuosina kymmenien miljardien eurojen datakeskusinvestoinnit, mutta niiden vaikutus bruttokansantuotteeseen on selvästi investoinnin kokoa pienempi. Kansainvälisten selvitysten mukaan noin 70–80 % investoinnista on IT-laitteistoa, joka tuodaan ulkomailta, joten Suomen arvonlisäykseen kirjautuu vain kotimaisen rakennus-, asennus- ja toimitustyön osuus. Rakentamisen vaikutus on väliaikainen, ja käyttövaiheessa suoria työpaikkoja syntyy vähän. Kerrannaisvaikutukset ovat bruttolukuja, joista osa syrjäyttää muuta toimintaa, joten nettovaikutus jää pienemmäksi kuin ilmoitetuissa vaikutusarvioissa.
 
 ## 1. Lähtökohta ja rajaus
 
-**Mitä mitataan.** Boksissa arvioidaan datakeskusinvestointien vaikutusta Suomen talouteen kahdella mittarilla: arvonlisäyksellä, joka vastaa BKT-vaikutusta, ja työllisyydellä. Vaikutukset esitetään nettona eli kotimaiselle taloudelle jäävänä osuutena.
+**Mitä mitataan.** Teemassa arvioidaan datakeskusinvestointien vaikutusta Suomen talouteen kahdella mittarilla: arvonlisäyksellä, joka vastaa BKT-vaikutusta, ja työllisyydellä. Vaikutukset esitetään nettona eli kotimaiselle taloudelle jäävänä osuutena.
 
 **Oletukset datakeskusten määrästä.** Hankekanta perustuu Dataikkunaan, joka kokoaa julkisista lähteistä Suomeen ilmoitetut datakeskushankkeet. Aineistossa on 170 hankeriviä, joka vastaa noin 150 hanketta ja 97 investoijaa. Valmistumisvuosi on tiedossa vain noin puolella riveistä, joten tarkastelu rajataan vuosina 2027–2028 valmistuviksi ilmoitettuihin 44 riviin (42 hanketta), joiden ilmoitettu investointisumma on noin 58 mrd. €. Näistä 15 hanketta (noin 28 mrd. €) on aloitettu, ja oletuksena on, että aloitetut viedään loppuun. Muiden hankkeiden oletetaan toteutuvan vaiheen mukaan: esiselvitysvaiheessa olevista 0–5 %, suunnitteluvaiheessa olevista 5–15 % ja investointipäätöksen tehneistä mutta aloittamattomista 15–40 %. Oletukset ovat omia, mutta ne on asetettu samaan suuntaan kuin parhaiten saatavilla oleva vertailutieto. Fingridin oman arvion mukaan vain noin kymmenesosa sähkön liityntäkyselyistä toteutuu lopulta kapasiteettina; esiselvitysvaihe edeltää tätäkin liityntävaihetta, joten sille asetettu 0–5 % on perusteltua pitää vielä Fingridin lukuakin varovaisempana. Kansainvälisesti vertailukelpoisin tilasto löytyy sähköverkon liityntäjonoista: yhdysvaltalaisen Lawrence Berkeley National Laboratoryn mukaan vain noin 13 % vuosien 2000–2019 liityntähakemuksista oli edennyt kaupalliseen käyttöön vuoteen 2024 mennessä, ja esimerkiksi verkko-operaattori PJM on hyväksynyt vain noin 57 % ja AEP Ohio noin 43 % ilmoitetusta kuormasta sen jälkeen, kun hankkeilta on vaadittu sitova maksuvelvoite – tämä jälkimmäinen vastaa lähinnä investointipäätösvaihetta, jolle tässä on silti asetettu tätäkin matalampi 15–40 % haarukka. Varovaisuutta puoltavat tuoreet, nimenomaan Suomea koskevat signaalit: viranomainen määräsi lokakuussa 2026 pysäyttämään työt kahdella Googlen datakeskustontilla ympäristölupaprosessin keskeneräisyyden vuoksi, ja hallitus perui syyskuussa 2026 suunnitellun datakeskustuen. Näillä oletuksilla vuosina 2027–2028 valmistuvien hankkeiden investointi on noin 31–36 mrd. € (keskimmäinen arvio noin 33 mrd. €). Summat sisältävät IT-laitteet ja osin estimoituja arvoja (noin 18 %), ja ne kuvaavat valmistumisvuoden mukaista kohorttia, ei vuosittaista investointivirtaa.
 
-**Rajaus.** Boksissa ei oteta huomioon tutkimus-, kehitys- ja osaamisvaikutuksia, koska niistä ei ole luotettavaa näyttöä.
+**Rajaus.** Teemassa ei oteta huomioon tutkimus-, kehitys- ja osaamisvaikutuksia, koska niistä ei ole luotettavaa näyttöä.
 
 **Brutto ja netto.** Brutto tarkoittaa koko vaikutusta ennen vähennyksiä. Netto on se osa, joka jää kotimaiselle taloudelle, kun tuonti, palautukset ja muualta siirtyvä toiminta on vähennetty.
 
@@ -42,7 +42,7 @@ Rakennusvaiheen vaikutus on kertaluonteinen ja kasautuu hankkeiden valmistumisvu
 
 Datakeskukset lisäävät sähkönkulutusta ja kantaverkkoinvestointeja. Fingrid suunnittelee investoivansa noin 5,2 mrd. € vuoteen 2035 mennessä (noin 2,0 mrd. € vuosina 2025–2028), mutta suunnitelma ei erittele investointeja asiakastyypeittäin, joten datakeskusten osuutta ei voi lukea siitä suoraan. Noin puolet noin 70 GW:n kulutuksen liityntäkyselyistä liittyy datakeskuksiin, ja Fingridin arvion mukaan realistisesti noin kymmenesosa kyselyistä toteutuu, mikä tarkoittaisi noin 5 GW:n lisäystä kulutukseen.
 
-Datakeskusten kasvava sähkönkulutus edellyttää myös uutta tuotantokapasiteettia, josta merkittävä osa rakennetaan Suomessa tuulivoimana – osin suoraan datakeskusyhtiöiden pitkäaikaisten sähkönostosopimusten (PPA) turvin. Boksi ei kuitenkaan sisällytä tuulivoimainvestointeja tarkasteluun: niitä ei voi erottaa luotettavasti muusta, datakeskuksista riippumattomasta tuulivoimarakentamisesta, eikä niitä voi laskea yhteen datakeskusten omien pääomamenojen kanssa ilman kaksoislaskentaa, koska osa yhtiöiden (esim. Googlen) ilmoittamista investointisummista sisältää jo omia energiahankkeitaan.
+Datakeskusten kasvava sähkönkulutus edellyttää myös uutta tuotantokapasiteettia, josta merkittävä osa rakennetaan Suomessa tuulivoimana – osin suoraan datakeskusyhtiöiden pitkäaikaisten sähkönostosopimusten (PPA) turvin. Teema ei kuitenkaan sisällytä tuulivoimainvestointeja tarkasteluun: niitä ei voi erottaa luotettavasti muusta, datakeskuksista riippumattomasta tuulivoimarakentamisesta, eikä niitä voi laskea yhteen datakeskusten omien pääomamenojen kanssa ilman kaksoislaskentaa, koska osa yhtiöiden (esim. Googlen) ilmoittamista investointisummista sisältää jo omia energiahankkeitaan.
 
 ## 5. Kerrannais- ja syrjäyttämisvaikutukset
 
@@ -56,10 +56,10 @@ Datakeskusinvestoinneista noin kymmenesosa–viidennes näkyy Suomen BKT:ssä, j
 
 ## Avoimet kohdat (poistetaan ennen julkaisua)
 
-- Googlen kapasiteetti: imputoitu kapasiteetti (325 MW/rivi) on todennäköisesti liian suuri, joten MW-lukuja ei kannata käyttää boksissa.
+- Googlen kapasiteetti: imputoitu kapasiteetti (325 MW/rivi) on todennäköisesti liian suuri, joten MW-lukuja ei kannata käyttää teemassa.
 - Kohortti vs. vuosivirta: aloitettujen hankkeiden rahaa on jo käytetty ennen vuotta 2027, joten investointi ei jakaudu vain valmistumisvuodelle.
 - Lähteet ja luvut, tarkistuksen tilanne ennen julkaisua:
-  - **Vahvistettu:** Fingridin oma elokuun 2026 tiedote vahvistaa 2025–2028 investoinnin olevan n. 2,0 mrd. €, kuten boksissa; datakeskukset mainitaan nimeltä kasvun ajurina.
+  - **Vahvistettu:** Fingridin oma elokuun 2026 tiedote vahvistaa 2025–2028 investoinnin olevan n. 2,0 mrd. €, kuten teemassa; datakeskukset mainitaan nimeltä kasvun ajurina.
   - **Ei vielä vahvistettu, tarkistettava alkuperäisestä PDF:stä:** koko 2026–2035 kauden 5,2 mrd. € -kokonaissumma (hakutuloksista ei löytynyt suoraa vahvistusta, mutta ei myöskään ristiriitaa).
   - **Ei löytynyt hausta, etsittävä uudelleen:** tarkka "Yle 10.4.2026" -lähde 10 %:n toteutumisarviolle. Fingridin elokuun 2026 tiedote toteaa kuitenkin saman suuntaisesti, että jos kaikki liittymissopimukset toteutuisivat, ne kasvattaisivat Suomen sähkönkulutusta lähes 40 % vuoden 2025 tasosta – eli spekulatiivista ylikysyntää liityntäjonossa on paljon, mikä tukee karkeasti samaa johtopäätöstä.
   - Dataikkuna (osa summista imputoitu), IoT Analytics ja IMPLAN (IT-laitteiden osuus), Lawrence Berkeley National Laboratoryn liityntäjonotilasto, PJM:n ja AEP Ohion jonotilastot, uutisoinnit Googlen datakeskustyömaiden pysäyttämisestä ja datakeskustuen perumisesta: linkit on koottu pääasiakirjan (Datakeskusten_vaikutus_Suomen_talouteenV3.docx) Lähteet-listaan, tarkista sieltä ennen julkaisua.

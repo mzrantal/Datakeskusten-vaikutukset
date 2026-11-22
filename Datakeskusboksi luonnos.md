@@ -23,9 +23,9 @@
 
 ## 2. Vaikutus kotimaahan
 
-Datakeskusinvestoinnin vaikutus BKT:hen on kotimainen arvonlisä eli investointi miinus tuonti. IT-laitteet tuodaan lähes kokonaan ulkomailta, koska Suomessa ei valmisteta palvelimia. Analyysissa kotimaiseksi oletetaan 12–23 % investoinnista ja kotimaisten töiden tuontisisällöksi 15–25 %, joten kotimainen arvonlisä on 9–20 % investoinnista. Työntekijöiden palkoista syntyvä kulutus lisää BKT:tä 5–7 % investoinnin arvosta, kun ulkomailla asuvien työntekijöiden Suomeen kohdistuvan kulutuksen oletetaan olevan 50 % suomalaisten kulutuksesta. BKT-vaikutus on yhteensä 14–26 % investoinnista, keskimäärin noin 23 %.
+Datakeskusinvestoinnin hyöty Suomen kansantaloudelle ei synny koko investoinnin summasta, vaan vain siitä osasta, joka jää kotimaahan. Noin kolme neljäsosaa rahasta kuluu palvelimiin ja muihin IT-laitteisiin, jotka tuodaan lähes kokonaan ulkomailta eivätkä siis kasvata Suomen bruttokansantuotetta sen enempää kuin minkä tahansa muun tuontitavaran ostaminen. Suomeen jää käytännössä kaksi asiaa: rakennus- ja asennustyön arvo sekä se, mitä työntekijät kuluttavat palkoistaan Suomessa. Näiden kahden yhteisvaikutus on karkeasti joka viides investoitu euro.
 
-Kun tätä sovelletaan toteutumisella painotettuun investointiin, rakennusvaiheen BKT-vaikutus on vuosina 2027–2028 yhteensä noin 7,5 mrd. € (4,4–9,5 mrd. €), eli keskimäärin noin 3,7 mrd. € vuodessa. **\[TÄYDENNETTÄVÄ: tarkista laskelma R-mallilla toteutumispainotetuilla summilla; lisää kuvio "Mitä 100 euron investoinnista jää Suomeen".\]**
+Kun tämä suhdeluku lasketaan R-mallilla ja sovelletaan siihen, että vain osa ilmoitetuista hankkeista todennäköisesti todella toteutuu, vuosina 2027–2028 valmistuvien datakeskusten rakentaminen kasvattaisi Suomen bruttokansantuotetta yhteensä noin 6,1 mrd. € (vaihteluväli noin 3,3–7,8 mrd. €) — eli keskimäärin noin 3 mrd. € vuodessa. **\[TÄYDENNETTÄVÄ: lisää kuvio "Mitä 100 euron investoinnista jää Suomeen".\]**
 
 ## 3. Rakennusvaihe ja käyttöönotto
 
@@ -33,7 +33,7 @@ Rakennusvaiheen vaikutus on kertaluonteinen ja kasautuu hankkeiden valmistumisvu
 
 | Netto | Rakennusvaihe 2027–2028 (kumulatiivinen) | Käyttövaihe (vuosittain) |
 | --- | --- | --- |
-| Arvonlisäys (BKT-vaikutus) | noin 7,5 mrd. € (4,4–9,5) | \[TÄYDENNETTÄVÄ\] |
+| Arvonlisäys (BKT-vaikutus) | noin 6,1 mrd. € (3,3–7,8) | \[TÄYDENNETTÄVÄ\] |
 | Työllisyys | \[TÄYDENNETTÄVÄ\] | \[TÄYDENNETTÄVÄ\] |
 
 ## 4. Vaikutus muuhun rakentamiseen: sähköverkot ja tuulivoima
@@ -46,7 +46,7 @@ Laskelma sisältää kerrannaisvaikutuksena vain palkoista syntyvän kulutuksen,
 
 ## 6. Yhteenveto
 
-Datakeskusinvestoinneista noin viidennes–neljännes näkyy Suomen BKT:ssä, ja rakennusvaiheessa vaikutus on kertaluonteinen. Käyttövaiheen vaikutus on pysyvä mutta työllisyydeltään vähäinen. Suurimmat epävarmuudet ovat hankkeiden toteutuminen, ajoitus ja syrjäyttäminen. **\[TÄYDENNETTÄVÄ: viimeistele, kun käyttövaiheen luvut on laskettu.\]**
+Datakeskusinvestoinneista noin kymmenesosa–viidennes näkyy Suomen BKT:ssä, ja rakennusvaiheessa vaikutus on kertaluonteinen. Käyttövaiheen vaikutus on pysyvä mutta työllisyydeltään vähäinen. Suurimmat epävarmuudet ovat hankkeiden toteutuminen, ajoitus ja syrjäyttäminen. **\[TÄYDENNETTÄVÄ: viimeistele, kun käyttövaiheen luvut on laskettu.\]**
 
 ---
 

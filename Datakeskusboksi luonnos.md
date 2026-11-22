@@ -31,12 +31,12 @@ Kun tämä suhdeluku lasketaan R-mallilla ja sovelletaan siihen, että vain osa 
 
 ## 3. Rakennusvaihe ja käyttöönotto
 
-Rakennusvaiheen vaikutus on kertaluonteinen ja kasautuu hankkeiden valmistumisvuosille. Käyttövaiheen vaikutus on pysyvä mutta pieni: datakeskukset työllistävät suoraan vähän (aineiston mediaani on 0,76 pysyvää työpaikkaa megawattia kohti), ja käyttökustannuksista suuri osa on sähköä. Dataikkunan hankkeiden valmistuminen painottuu vuosiin 2027–2028, joten rakennusvaiheen vaikutus voi heiketä nopeasti, ellei uusia hankkeita käynnisty. **\[TÄYDENNETTÄVÄ: käyttövaiheen arvonlisäys ja työllisyys omasta laskelmasta.\]**
+Rakennusvaiheen vaikutus on kertaluonteinen ja kasautuu hankkeiden valmistumisvuosille. Käyttövaiheen vaikutus on pysyvä mutta pieni: datakeskukset työllistävät suoraan vähän (aineiston mediaani on 0,76 pysyvää työpaikkaa megawattia kohti), ja käyttökustannuksista suuri osa on sähköä. Omalla laskelmalla sama toteutumapainotettu hankekanta (31–36 mrd. €, keskim. 33 mrd. €) tuottaisi valmiina ollessaan pysyvän, vuosittain toistuvan vaikutuksen: bruttokansantuote kasvaisi noin 2,0 mrd. € vuodessa (vaihteluväli noin 1,2–2,8 mrd. €), ja pysyviä työpaikkoja syntyisi yhteensä noin 6 000 (vaihteluväli 2 800–9 900), joista suoraan datakeskusten omaa ylläpito- ja käyttöhenkilöstöä noin 2 750. Tämä vuotuinen vaikutus on siis selvästi pienempi kuin rakentamisen kertaluonteinen piikki, mutta toisin kuin rakentaminen, se jatkuu niin kauan kuin datakeskukset ovat käytössä. Dataikkunan hankkeiden valmistuminen painottuu vuosiin 2027–2028, joten rakennusvaiheen vaikutus voi heiketä nopeasti, ellei uusia hankkeita käynnisty.
 
 | Netto | Rakennusvaihe 2027–2028 (kumulatiivinen) | Käyttövaihe (vuosittain) |
 | --- | --- | --- |
-| Arvonlisäys (BKT-vaikutus) | noin 6,1 mrd. € (3,3–7,8) | \[TÄYDENNETTÄVÄ\] |
-| Työllisyys | \[TÄYDENNETTÄVÄ\] | \[TÄYDENNETTÄVÄ\] |
+| Arvonlisäys (BKT-vaikutus) | noin 6,1 mrd. € (3,3–7,8) | noin 2,0 mrd. €/v (1,2–2,8) |
+| Työllisyys | \[TÄYDENNETTÄVÄ\] | noin 6 000 htv/v (2 800–9 900), josta suoria n. 2 750 |
 
 ## 4. Vaikutus muuhun rakentamiseen: sähköverkot ja tuulivoima
 

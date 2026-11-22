@@ -36,7 +36,7 @@ Rakennusvaiheen vaikutus on kertaluonteinen ja kasautuu hankkeiden valmistumisvu
 | Netto | Rakennusvaihe 2027–2028 (kumulatiivinen) | Käyttövaihe (vuosittain) |
 | --- | --- | --- |
 | Arvonlisäys (BKT-vaikutus) | noin 6,1 mrd. € (3,3–7,8) | noin 2,0 mrd. €/v (1,2–2,8) |
-| Työllisyys | \[TÄYDENNETTÄVÄ\] | noin 6 000 htv/v (2 800–9 900), josta suoria n. 2 750 |
+| Työllisyys | noin 40 600 htv (38 200–44 300), josta suoria n. 18 400 | noin 6 000 htv/v (2 800–9 900), josta suoria n. 2 750 |
 
 ## 4. Vaikutus muuhun rakentamiseen: sähköverkot ja tuulivoima
 

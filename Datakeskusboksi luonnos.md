@@ -25,7 +25,9 @@
 
 Datakeskusinvestoinnin hyöty Suomen kansantaloudelle ei synny koko investoinnin summasta, vaan vain siitä osasta, joka jää kotimaahan. Noin kolme neljäsosaa rahasta kuluu palvelimiin ja muihin IT-laitteisiin, jotka tuodaan lähes kokonaan ulkomailta eivätkä siis kasvata Suomen bruttokansantuotetta sen enempää kuin minkä tahansa muun tuontitavaran ostaminen. Suomeen jää käytännössä kaksi asiaa: rakennus- ja asennustyön arvo sekä se, mitä työntekijät kuluttavat palkoistaan Suomessa. Näiden kahden yhteisvaikutus on karkeasti joka viides investoitu euro.
 
-Kun tämä suhdeluku lasketaan R-mallilla ja sovelletaan siihen, että vain osa ilmoitetuista hankkeista todennäköisesti todella toteutuu, vuosina 2027–2028 valmistuvien datakeskusten rakentaminen kasvattaisi Suomen bruttokansantuotetta yhteensä noin 6,1 mrd. € (vaihteluväli noin 3,3–7,8 mrd. €) — eli keskimäärin noin 3 mrd. € vuodessa. **\[TÄYDENNETTÄVÄ: lisää kuvio "Mitä 100 euron investoinnista jää Suomeen".\]**
+Kun tämä suhdeluku lasketaan R-mallilla ja sovelletaan siihen, että vain osa ilmoitetuista hankkeista todennäköisesti todella toteutuu, vuosina 2027–2028 valmistuvien datakeskusten rakentaminen kasvattaisi Suomen bruttokansantuotetta yhteensä noin 6,1 mrd. € (vaihteluväli noin 3,3–7,8 mrd. €) — eli keskimäärin noin 3 mrd. € vuodessa.
+
+![Mitä 100 euron datakeskusinvestoinnista jää Suomeen](datakeskus_100e_kuvio.png)
 
 ## 3. Rakennusvaihe ja käyttöönotto
 

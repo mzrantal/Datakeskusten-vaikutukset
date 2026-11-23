@@ -2,7 +2,7 @@
 
 *Luonnos Taloudellisen katsauksen teemaan (keskeneräinen). Kohdat, joissa lukee **\[TÄYDENNETTÄVÄ: …\]**, vaativat työtä.*
 
-Suomeen on ilmoitettu viime vuosina kymmenien miljardien eurojen datakeskusinvestoinnit, mutta niiden vaikutus bruttokansantuotteeseen on selvästi investoinnin kokoa pienempi. Kansainvälisten selvitysten mukaan noin 70–80 % investoinnista on IT-laitteistoa, joka tuodaan ulkomailta, joten Suomen arvonlisäykseen kirjautuu vain kotimaisen rakennus-, asennus- ja toimitustyön osuus. Rakentamisen vaikutus on väliaikainen, ja käyttövaiheessa suoria työpaikkoja syntyy vähän. Kerrannaisvaikutukset ovat bruttolukuja, joista osa syrjäyttää muuta toimintaa, joten nettovaikutus jää pienemmäksi kuin ilmoitetuissa vaikutusarvioissa.
+Suomeen on ilmoitettu viime vuosina kymmenien miljardien eurojen datakeskusinvestoinnit, mutta niiden vaikutus bruttokansantuotteeseen on selvästi investoinnin kokoa pienempi. Kansainvälisten selvitysten mukaan noin 70–80 % investoinnista on IT-laitteistoa, joka tuodaan ulkomailta, joten Suomen arvonlisäykseen kirjautuu vain kotimaisen rakennus-, asennus- ja suunnittelutyön osuus. Rakentamisen vaikutus on väliaikainen, ja käyttövaiheessa suoria työpaikkoja syntyy vähän. Kerrannaisvaikutukset ovat bruttolukuja, joista osa syrjäyttää muuta toimintaa, joten nettovaikutus jää pienemmäksi kuin ilmoitetuissa vaikutusarvioissa.
 
 ## 1. Lähtökohta ja rajaus
 

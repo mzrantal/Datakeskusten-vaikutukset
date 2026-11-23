@@ -34,12 +34,17 @@ Kun tämä suhdeluku lasketaan R-mallilla ja sovelletaan siihen, että vain osa 
 
 ## 3. Rakennusvaihe ja käyttöönotto
 
-Rakennusvaiheen vaikutus on kertaluonteinen ja kasautuu hankkeiden valmistumisvuosille. Käyttövaiheen vaikutus on pysyvä mutta pieni: datakeskukset työllistävät suoraan vähän (aineiston mediaani on 0,76 pysyvää työpaikkaa megawattia kohti), ja käyttökustannuksista suuri osa on sähköä. Omalla laskelmalla sama toteutumapainotettu hankekanta (31–36 mrd. €, keskim. 33 mrd. €) tuottaisi valmiina ollessaan pysyvän, vuosittain toistuvan vaikutuksen: bruttokansantuote kasvaisi noin 2,0 mrd. € vuodessa (vaihteluväli noin 1,2–2,8 mrd. €), ja pysyviä työpaikkoja syntyisi yhteensä noin 6 000 (vaihteluväli 2 800–9 900), joista suoraan datakeskusten omaa ylläpito- ja käyttöhenkilöstöä noin 2 750. Tämä vuotuinen vaikutus on siis selvästi pienempi kuin rakentamisen kertaluonteinen piikki, mutta toisin kuin rakentaminen, se jatkuu niin kauan kuin datakeskukset ovat käytössä. Dataikkunan hankkeiden valmistuminen painottuu vuosiin 2027–2028, joten rakennusvaiheen vaikutus voi heiketä nopeasti, ellei uusia hankkeita käynnisty.
+Rakennusvaiheen vaikutus on kertaluonteinen ja kasautuu hankkeiden valmistumisvuosille 2027–2028. Käyttövaiheen vaikutus sen sijaan on pysyvä: se jatkuu niin kauan kuin datakeskukset ovat käytössä, mutta on vuositasolla selvästi pienempi kuin rakentamisen kertaluonteinen piikki. Dataikkunan hankkeiden valmistuminen painottuu vuosiin 2027–2028, joten rakennusvaiheen vaikutus voi heiketä nopeasti, ellei uusia hankkeita käynnisty.
+
+**Rakennusvaihe.** Työllisyysvaikutus koko rakennusajalta on yhteensä noin 40 600 henkilötyövuotta (vaihteluväli 38 200–44 300), joista suoria rakennus- ja asennustyöpaikkoja noin 18 400. Verotuloja (yhteisövero, arvonlisävero, tulovero ja kiinteistövero yhteensä) kertyy koko rakennusajalta noin 1,1 mrd. € (vaihteluväli 0,7–1,7 mrd. €). Arvonlisäys eli BKT-vaikutus on noin 6,1 mrd. € (vaihteluväli 3,3–7,8 mrd. €).
+
+**Käyttövaihe.** Datakeskukset työllistävät suoraan vähän (aineiston mediaani on 0,76 pysyvää työpaikkaa megawattia kohti), ja käyttökustannuksista suuri osa on sähköä. Valmiina ollessaan hankekanta tuottaisi vuosittain toistuvan työllisyysvaikutuksen, joka on yhteensä noin 6 000 henkilötyövuotta (vaihteluväli 2 800–9 900), joista suoraan datakeskusten omaa ylläpito- ja käyttöhenkilöstöä noin 2 750. Verotuloja (samat erät kuin rakennusvaiheessa, lisäksi sähkövero) kertyy vuosittain noin 0,7 mrd. € (vaihteluväli 0,56–0,91 mrd. €). Arvonlisäys on noin 2,0 mrd. € vuodessa (vaihteluväli 1,2–2,8 mrd. €).
 
 | Netto | Rakennusvaihe 2027–2028 (kumulatiivinen) | Käyttövaihe (vuosittain) |
 | --- | --- | --- |
 | Arvonlisäys (BKT-vaikutus) | noin 6,1 mrd. € (3,3–7,8) | noin 2,0 mrd. €/v (1,2–2,8) |
 | Työllisyys | noin 40 600 htv (38 200–44 300), josta suoria n. 18 400 | noin 6 000 htv/v (2 800–9 900), josta suoria n. 2 750 |
+| Verotulot | noin 1,1 mrd. € (0,7–1,7) | noin 0,7 mrd. €/v (0,56–0,91) |
 
 ## 4. Vaikutus muuhun rakentamiseen: sähköverkot
 

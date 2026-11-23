@@ -44,7 +44,12 @@ Rakennusvaiheen vaikutus on kertaluonteinen ja kasautuu hankkeiden valmistumisvu
 | --- | --- | --- |
 | Arvonlisäys (BKT-vaikutus) | noin 6,1 mrd. € (3,3–7,8) | noin 2,0 mrd. €/v (1,2–2,8) |
 | Työllisyys | noin 40 600 htv (38 200–44 300), josta suoria n. 18 400 | noin 6 000 htv/v (2 800–9 900), josta suoria n. 2 750 |
-| Verotulot | noin 1,1 mrd. € (0,7–1,7) | noin 0,7 mrd. €/v (0,56–0,91) |
+| Verotulot yhteensä | noin 1,1 mrd. € (0,7–1,7) | noin 0,7 mrd. €/v (0,56–0,91) |
+| &nbsp;&nbsp;– Yhteisövero | noin 116 milj. € (65–180) | noin 25 milj. €/v (14–39) |
+| &nbsp;&nbsp;– Arvonlisävero (netto) | noin 91 milj. € (52–135) | noin 19 milj. €/v (8–33) |
+| &nbsp;&nbsp;– Tulovero | noin 866 milj. € (543–1 260) | noin 55 milj. €/v (21–110) |
+| &nbsp;&nbsp;– Kiinteistövero | noin 60 milj. € (47–78) | noin 60 milj. €/v (47–78) |
+| &nbsp;&nbsp;– Sähkövero | – | noin 564 milj. €/v (467–651) |
 
 ## 4. Vaikutus muuhun rakentamiseen: sähköverkot
 

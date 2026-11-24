@@ -51,7 +51,7 @@ Rakennusvaiheen vaikutus on kertaluonteinen ja kasautuu hankkeiden valmistumisvu
 | &nbsp;&nbsp;– Kiinteistövero | noin 60 milj. € (47–78) | noin 60 milj. €/v (47–78) |
 | &nbsp;&nbsp;– Sähkövero | – | noin 564 milj. €/v (467–651) |
 
-¹ Tulovero sisältää vain suorien työntekijöiden palkoista kertyvän tuloveron, ei epäsuorien tai indusoitujen työntekijöiden tuloveroa. Verotulot yhteensä -luku on siis tältä osin aliarvio. Rakennusvaiheen tulovero on laskettu oikealla suoralla työllisyyspohjalla (n. 6 715 suoraa työntekijää per 12 mrd. €, 1 230 htv/mrd. €:n kokonaismäärästä Googlen Deloitte-selvityksen suhteella johdettuna, kerrottuna Suomessa verotettujen osuudella 50/60/70 % skenaariosta riippuen) vuoden 2026 tuloveroasteikolla. Aiempi luku perustui vahingossa Rambollin alkuperäiseen, jo hylättyyn 45 000 htv:n kokonaistyöllisyysoletukseen, jota ei ollut päivitetty Googlen lukuun siirryttäessä.
+¹ Tulovero sisältää vain suorien työntekijöiden palkoista kertyvän tuloveron, ei epäsuorien tai indusoitujen työntekijöiden tuloveroa. Verotulot yhteensä -luku on siis tältä osin aliarvio.
 
 ## 4. Vaikutus muuhun rakentamiseen: sähköverkot
 

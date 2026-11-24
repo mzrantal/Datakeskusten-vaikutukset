@@ -122,38 +122,9 @@ Datakeskusinvestoinneista noin kymmenesosa–viidennes näkyy Suomen BKT:ssä, j
 
 **Tulovero, tarkempi laskentaperuste (molemmat vaiheet):** suorien työntekijöiden määrä × keskipalkka → verotettava tulo/työntekijä = 91,8 % × bruttopalkka − 750 € → valtion tulovero vuoden 2026 progressiivisella tuloveroasteikolla + kunnallisvero 7,57 % verotettavasta tulosta → kerrotaan Suomessa verotettujen osuudella (rakennusvaihe: suomalaisten_osuus 50/60/70 %; käyttövaihe: ei erillistä oletusta, 100 %).
 
-## Liite: Kaavat sovellettuna tämän teeman lukuihin (31/33/36 mrd. €)
+## Liite: Kaavat sovellettuna tämän teeman lukuihin (33 mrd. €)
 
-Alla samat kaavat auki laskettuina tämän teeman omalla toteutumapainotetulla hankekannalla, jotta jokainen tekstissä esiintyvä luku on jäljitettävissä. *k* = *inv* / 12.
-
-### Alhainen (investointi 31 mrd. €, *k* = 2,583)
-
-**Työllisyys**
-- rak_htv = 31 × 1 231 = 38 161 htv → suorat = 38 161 × 1/2,2 = 17 346 htv
-- kaytto_htv = 31 × 91,67 = 2 842 htv/v → suorat_htv = 2,583 × 500 = 1 292 htv/v
-
-**Arvonlisäys**
-- I = 31 × 1 000 = 31 000 M€; kotim = 31 000 × 12 % = 3 720 M€; M_inv = (31 000 − 3 720) + 3 720 × 25 % = 28 210 M€
-- rak_palkat = 38 161 × 45 000 € / 1 000 000 = 1 717,2 M€; kotim_palkkaosuus = 0,50 + 0,50 × 0,50 = 0,75
-- C_rak = 1 717,2 × 60 % × 0,75 = 772,8 M€; M_C_rak = 772,8 × 30 % = 231,8 M€
-- **BKT_rak = 31 000 + 772,8 − 28 210,0 − 231,8 = 3 330,9 M€ ≈ 3,3 mrd. €**
-- mw = 31 × 101,25 = 3 139 MW; sahko_mwh = 3 139 × 0,75 × 8 760 h = 20,62 TWh; sahkokulut = 20,62 TWh × 50 €/MWh = 1 031,1 M€
-- henkilosto = 1 292 × 100 000 € / 1 000 000 = 129,2 M€; opex = 1 031,1 + 129,2 = 1 160,2 M€; X = 1 160,2 × 1,06 = 1 229,9 M€
-- M_sahko = 1 031,1 × 15 % = 154,7 M€; C_kaytto = 2,583 × (72 + 86,4) × 60 % = 245,5 M€; M_C_kaytto = 245,5 × 30 % = 73,7 M€
-- **BKT_kaytto = 1 229,9 + 245,5 − 154,7 − 73,7 = 1 247,1 M€/v ≈ 1,2 mrd. €/v**
-
-**Verotulot, rakennusvaihe**
-- Yhteisövero = 2,583 × 25 = 64,6 M€; ALV = 2,583 × 20 = 51,7 M€
-- Tulovero: 17 346 suorasta Suomessa verotettuja 50 % → 8 673 htv × 10 287 €/htv = 2,583 × 34,5 = **89,2 M€**
-- Kiinteistövero = 46,5 × 0,5 × 2 = 46,5 M€; Sähkövero = 0
-- **Yhteensä = 252,0 M€**
-
-**Verotulot, käyttövaihe (vuodessa)**
-- Yhteisövero = 1 160,2 × 0,06 × 20 % = 13,9 M€; ALV = 2,583 × 3 = 7,8 M€; Tulovero = 2,583 × 8,0 = 20,7 M€
-- Kiinteistövero = 2,583 × 1 500 × 1,20 % = 46,5 M€; Sähkövero = 20,62 TWh × 22,66 €/MWh = 467,3 M€
-- **Yhteensä = 556,1 M€/v**
-
-### Keskimääräinen (investointi 33 mrd. €, *k* = 2,750)
+Alla samat kaavat auki laskettuina tämän teeman keskimmäisellä, toteutumapainotetulla investoinnilla (33 mrd. €, *k* = *inv* / 12 = 2,750), jotta jokainen tekstissä esiintyvä luku on jäljitettävissä.
 
 **Työllisyys**
 - rak_htv = 33 × 1 231 = 40 623 htv → suorat = 40 623 × 1/2,2 = **18 465 htv** ("≈ 18 400")
@@ -179,33 +150,6 @@ Alla samat kaavat auki laskettuina tämän teeman omalla toteutumapainotetulla h
 - Yhteisövero = 1 767,7 × 0,07 × 20 % = 24,7 M€; ALV = 2,750 × 7 = 19,2 M€; Tulovero = 2,750 × 20,1 = 55,3 M€
 - Kiinteistövero = 2,750 × 1 750 × 1,25 % = 60,2 M€; Sähkövero = 24,88 TWh × 22,66 €/MWh = 563,8 M€
 - **Yhteensä = 723,2 M€/v ("≈ 0,7 mrd. €/v")**
-
-### Korkea (investointi 36 mrd. €, *k* = 3,000)
-
-**Työllisyys**
-- rak_htv = 36 × 1 231 = 44 316 htv → suorat = 44 316 × 1/2,2 = 20 144 htv
-- kaytto_htv = 36 × 275,00 = 9 900 htv/v → suorat_htv = 3,000 × 1 500 = 4 500 htv/v
-
-**Arvonlisäys**
-- I = 36 × 1 000 = 36 000 M€; kotim = 36 000 × 23 % = 8 280,0 M€; M_inv = (36 000 − 8 280,0) + 8 280,0 × 15 % = 28 962,0 M€
-- rak_palkat = 44 316 × 45 000 € / 1 000 000 = 1 994,2 M€; kotim_palkkaosuus = 0,70 + 0,30 × 0,50 = 0,85
-- C_rak = 1 994,2 × 65 % × 0,85 = 1 101,8 M€; M_C_rak = 1 101,8 × 30 % = 330,5 M€
-- **BKT_rak = 36 000 + 1 101,8 − 28 962,0 − 330,5 = 7 809,3 M€ ≈ 7,8 mrd. €**
-- mw = 36 × 101,25 = 3 645 MW; sahko_mwh = 3 645 × 0,90 × 8 760 h = 28,74 TWh; sahkokulut = 28,74 TWh × 70 €/MWh = 2 011,6 M€
-- henkilosto = 4 500 × 100 000 € / 1 000 000 = 450,0 M€; opex = 2 011,6 + 450,0 = 2 461,6 M€; X = 2 461,6 × 1,08 = 2 658,5 M€
-- M_sahko = 2 011,6 × 5 % = 100,6 M€; C_kaytto = 3,000 × (96 + 115,2) × 65 % = 411,8 M€; M_C_kaytto = 411,8 × 30 % = 123,6 M€
-- **BKT_kaytto = 2 658,5 + 411,8 − 100,6 − 123,6 = 2 846,2 M€/v ≈ 2,8 mrd. €/v**
-
-**Verotulot, rakennusvaihe**
-- Yhteisövero = 3,000 × 60 = 180,0 M€; ALV = 3,000 × 45 = 135,0 M€
-- Tulovero: 20 144 suorasta Suomessa verotettuja 70 % → 14 101 htv × 10 287 €/htv = 3,000 × 48,4 = **145,1 M€**
-- Kiinteistövero = 78,0 × 0,5 × 2 = 78,0 M€; Sähkövero = 0
-- **Yhteensä = 538,0 M€**
-
-**Verotulot, käyttövaihe (vuodessa)**
-- Yhteisövero = 2 461,6 × 0,08 × 20 % = 39,4 M€; ALV = 3,000 × 11 = 33,0 M€; Tulovero = 3,000 × 36,5 = 109,5 M€
-- Kiinteistövero = 3,000 × 2 000 × 1,30 % = 78,0 M€; Sähkövero = 28,74 TWh × 22,66 €/MWh = 651,2 M€
-- **Yhteensä = 911,1 M€/v**
 
 ---
 

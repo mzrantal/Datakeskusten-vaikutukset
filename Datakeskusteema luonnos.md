@@ -67,6 +67,61 @@ Laskelma sisältää kerrannaisvaikutuksena vain palkoista syntyvän kulutuksen,
 
 Datakeskusinvestoinneista noin kymmenesosa–viidennes näkyy Suomen BKT:ssä, ja rakennusvaiheessa vaikutus on kertaluonteinen. Käyttövaiheen vaikutus on pysyvä mutta työllisyydeltään vähäinen. Suurimmat epävarmuudet ovat hankkeiden toteutuminen, ajoitus ja syrjäyttäminen. **\[TÄYDENNETTÄVÄ: viimeistele, kun käyttövaiheen luvut on laskettu.\]**
 
+## Liite: Laskentakaavat
+
+**Merkinnät:** *inv* = investointi (mrd. €), *s* = skenaario (alhainen/keskimääräinen/korkea), *k* = *inv* / 12 (skaalauskerroin muistion 12 mrd. €:n peruslukuihin).
+
+### Työllisyys
+
+- **Rakennusvaihe, suora+epäsuora+indusoitu yhteensä:** rak_htv = *inv* × 1 231 htv/mrd. € (Googlen oma ilmoitus, sama kaikissa skenaarioissa)
+  - *josta suoria:* rak_htv × 1 / 2,2 (Googlen Deloitte-selvityksen Hamina-suhde: epäsuora+indusoitu = 1,2 × suora)
+- **Käyttövaihe, suora+epäsuora+indusoitu, vuodessa:** kaytto_htv = *inv* × kaytto_htv_per_mrd[s], jossa kaytto_htv_per_mrd = (kaytto_suorat_12[s] / 12) × 2,2
+  - *josta suoria (vuodessa):* suorat_htv = *k* × kaytto_suorat_12[s] (500 / 1 000 / 1 500 per 12 mrd. €)
+
+### Arvonlisäys (BKT-vaikutus)
+
+**Rakennusvaihe** (koko rakennusajalta): BKT_rak = I + C_rak − M_inv − M_C_rak
+
+- I = *inv* × 1 000 (investointi, M€)
+- kotim = I × kotimainen_osuus[s] (12 / 20,8 / 23 %) — kotimaisen toimitusketjun laskutusosuus
+- M_inv = (I − kotim) + kotim × kotim_tuontisisalto[s] — tuonti (IT-laitteet + kotimaisten urakoiden tuontisisältö)
+- rak_palkat = rak_htv × 45 000 € / 1 000 000 (keskipalkka)
+- kotim_palkkaosuus = suomalaisten_osuus[s] + (1 − suomalaisten_osuus[s]) × ulkom_kulutussuhde[s] (0,5/0,6/0,7 ja 0,5)
+- C_rak = rak_palkat × kulutusosuus[s] × kotim_palkkaosuus — palkoista syntyvä kotimainen kulutus
+- M_C_rak = C_rak × kulutus_tuontisisalto[s] (30 %) — kulutuksen tuontisisältö
+
+**Käyttövaihe** (vuodessa): BKT_kaytto = X + C_kaytto − M_sahko − M_C_kaytto
+
+- mw = *inv* × mw_per_mrd[s] (101 MW/mrd. €, Haminaan kalibroitu)
+- sahko_mwh = mw × kayttoaste[s] × 8 760 h (0,75/0,85/0,90 käyttöaste)
+- sahkokulut = sahko_mwh × sahkon_hinta[s] / 1 000 000
+- henkilosto = suorat_htv × 100 000 € / 1 000 000 (henkilöstökulu per suora työntekijä)
+- opex = sahkokulut + henkilosto
+- X = opex × (1 + voittolisa[s]) — palveluvienti emoyhtiölle, siirtohinnoittelun cost-plus-kaava (0,06/0,07/0,08 voittolisä)
+- M_sahko = sahkokulut × tuontisahko_osuus[s] (0,15/0,10/0,05)
+- C_kaytto = *k* × (kaytto_palkat_suorat_12[s] + kaytto_palkat_epasuor_12[s]) × kulutusosuus[s]
+- M_C_kaytto = C_kaytto × kulutus_tuontisisalto[s]
+
+### Verotulot
+
+**Rakennusvaihe** (koko rakennusajalta):
+
+- Yhteisövero = *k* × rak_yhteisovero_12[s] — urakoitsijoiden ja toimittajien liikevoitosta
+- Arvonlisävero (netto) = *k* × rak_alv_12[s] — työntekijöiden kulutuksen ALV, investoinnin oma ALV palautuu
+- Tulovero = *k* × rak_tulovero_12[s] — ks. tarkempi laskentaperuste alla
+- Kiinteistövero = kiinteistovero_v × rak_kiinteistovero_os (0,5) × rakennusvuodet (2)
+- Sähkövero = 0
+
+**Käyttövaihe** (vuodessa):
+
+- Yhteisövero = opex × voittolisa[s] × 20 % (yhteisöveroaste)
+- Arvonlisävero (netto) = *k* × kaytto_alv_12[s]
+- Tulovero = *k* × kaytto_tulovero_12[s] — ks. tarkempi laskentaperuste alla
+- Kiinteistövero = kiinteistovero_v = *k* × verotusarvo_12[s] × kiinteistoveropros[s]
+- Sähkövero = sahko_mwh × 22,66 €/MWh / 1 000 000
+
+**Tulovero, tarkempi laskentaperuste (molemmat vaiheet):** suorien työntekijöiden määrä × keskipalkka → verotettava tulo/työntekijä = 91,8 % × bruttopalkka − 750 € → valtion tulovero vuoden 2026 progressiivisella tuloveroasteikolla + kunnallisvero 7,57 % verotettavasta tulosta → kerrotaan Suomessa verotettujen osuudella (rakennusvaihe: suomalaisten_osuus 50/60/70 %; käyttövaihe: ei erillistä oletusta, 100 %).
+
 ---
 
 ## Avoimet kohdat (poistetaan ennen julkaisua)

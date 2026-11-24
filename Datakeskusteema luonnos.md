@@ -28,8 +28,6 @@ Suomeen on ilmoitettu viime vuosina kymmenien miljardien eurojen datakeskusinves
 
 Datakeskusinvestoinnin hyöty Suomen kansantaloudelle ei synny koko investoinnin summasta, vaan vain siitä osasta, joka jää kotimaahan. Noin kolme neljäsosaa rahasta kuluu palvelimiin ja muihin IT-laitteisiin, jotka tuodaan lähes kokonaan ulkomailta eivätkä siis kasvata Suomen bruttokansantuotetta sen enempää kuin minkä tahansa muun tuontitavaran ostaminen. Suomeen jää käytännössä kaksi asiaa: rakennus- ja asennustyön arvo sekä se, mitä työntekijät kuluttavat palkoistaan Suomessa. Näiden kahden yhteisvaikutus on karkeasti joka viides investoitu euro.
 
-Kun tämä suhdeluku lasketaan R-mallilla ja sovelletaan siihen, että vain osa ilmoitetuista hankkeista todennäköisesti todella toteutuu, vuosina 2027–2028 valmistuvien datakeskusten rakentaminen kasvattaisi Suomen bruttokansantuotetta yhteensä noin 6,1 mrd. € (vaihteluväli noin 3,3–7,8 mrd. €) — eli keskimäärin noin 3 mrd. € vuodessa.
-
 ![Mitä 100 euron datakeskusinvestoinnista jää Suomeen](datakeskus_100e_kuvio.png)
 
 ## 3. Rakennusvaihe ja käyttöönotto
@@ -65,7 +63,7 @@ Laskelma sisältää kerrannaisvaikutuksena vain palkoista syntyvän kulutuksen,
 
 ## 6. Yhteenveto
 
-Datakeskusinvestoinneista noin kymmenesosa–viidennes näkyy Suomen BKT:ssä, ja rakennusvaiheessa vaikutus on kertaluonteinen. Käyttövaiheen vaikutus on pysyvä mutta työllisyydeltään vähäinen. Suurimmat epävarmuudet ovat hankkeiden toteutuminen, ajoitus ja syrjäyttäminen. **\[TÄYDENNETTÄVÄ: viimeistele, kun käyttövaiheen luvut on laskettu.\]**
+Datakeskusinvestoinneista noin kymmenesosa–viidennes näkyy Suomen BKT:ssä – karkeasti joka viides investoitu euro jää kotimaiseen rakennus- ja asennustyöhön sekä työntekijöiden kulutukseen, loput kuluvat ulkomailta tuotuihin IT-laitteisiin. Vuosina 2027–2028 valmistuvien hankkeiden rakentaminen kasvattaisi Suomen bruttokansantuotetta yhteensä noin 6,1 mrd. € (vaihteluväli noin 3,3–7,8 mrd. €), eli keskimäärin noin 3 mrd. € vuodessa. Rakennusvaiheessa vaikutus on kertaluonteinen. Käyttövaiheen vaikutus on pysyvä mutta työllisyydeltään vähäinen. Suurimmat epävarmuudet ovat hankkeiden toteutuminen, ajoitus ja syrjäyttäminen. **\[TÄYDENNETTÄVÄ: viimeistele, kun käyttövaiheen luvut on laskettu.\]**
 
 ## Liite: Laskentakaavat
 

@@ -156,7 +156,6 @@ Alla samat kaavat auki laskettuina tämän teeman keskimmäisellä, toteutumapai
 ## Avoimet kohdat (poistetaan ennen julkaisua)
 
 - Googlen kapasiteetti: Dataikkunan oma imputoitu kapasiteetti (325 MW/rivi) on todennäköisesti liian suuri, eikä sitä ole käytetty teemassa. Luvussa 1 mainittu MW-luku on sen sijaan laskettu mallin omalla, Haminan datakeskuksen toteutuneeseen tehoon kalibroidulla suhdeluvulla (101 MW/mrd. €) — tarkista, hyväksytäänkö tämä laskentatapa vai jätetäänkö MW-luku kokonaan pois.
-- Kohortti vs. vuosivirta: aloitettujen hankkeiden rahaa on jo käytetty ennen vuotta 2027, joten investointi ei jakaudu vain valmistumisvuodelle.
 - Lähteet ja luvut, tarkistuksen tilanne ennen julkaisua:
   - **Vahvistettu:** Fingridin oma elokuun 2026 tiedote vahvistaa 2025–2028 investoinnin olevan n. 2,0 mrd. €, kuten teemassa; datakeskukset mainitaan nimeltä kasvun ajurina.
   - **Ei vielä vahvistettu, tarkistettava alkuperäisestä PDF:stä:** koko 2026–2035 kauden 5,2 mrd. € -kokonaissumma (hakutuloksista ei löytynyt suoraa vahvistusta, mutta ei myöskään ristiriitaa).

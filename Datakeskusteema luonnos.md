@@ -24,13 +24,7 @@ Suomeen on ilmoitettu viime vuosina kymmenien miljardien eurojen datakeskusinves
 | Työllisyys | Kaikki hankkeen tukemat työpaikat | Uudet työpaikat, kun vähennetään muualta siirtyneet |
 | Kulutus | Kaikkien työntekijöiden palkoista syntyvä kulutus | Vain uusi kulutus, kun huomioidaan syrjäytyminen ja muualle menevät palkat |
 
-## 2. Vaikutus kotimaahan
-
-Datakeskusinvestoinnin hyöty Suomen kansantaloudelle ei synny koko investoinnin summasta, vaan vain siitä osasta, joka jää kotimaahan. Noin kolme neljäsosaa rahasta kuluu palvelimiin ja muihin IT-laitteisiin, jotka tuodaan lähes kokonaan ulkomailta eivätkä siis kasvata Suomen bruttokansantuotetta sen enempää kuin minkä tahansa muun tuontitavaran ostaminen. Suomeen jää käytännössä kaksi asiaa: rakennus- ja asennustyön arvo sekä se, mitä työntekijät kuluttavat palkoistaan Suomessa. Näiden kahden yhteisvaikutus on karkeasti joka viides investoitu euro.
-
-![Mitä 100 euron datakeskusinvestoinnista jää Suomeen](datakeskus_100e_kuvio.png)
-
-## 3. Rakennusvaihe ja käyttöönotto
+## 2. Rakennusvaihe ja käyttöönotto
 
 Rakennusvaiheen vaikutus on kertaluonteinen ja kasautuu hankkeiden valmistumisvuosille 2027–2028. Käyttövaiheen vaikutus sen sijaan on pysyvä: se jatkuu niin kauan kuin datakeskukset ovat käytössä, mutta on vuositasolla selvästi pienempi kuin rakentamisen kertaluonteinen piikki. Dataikkunan hankkeiden valmistuminen painottuu vuosiin 2027–2028, joten rakennusvaiheen vaikutus voi heiketä nopeasti, ellei uusia hankkeita käynnisty.
 
@@ -51,17 +45,17 @@ Rakennusvaiheen vaikutus on kertaluonteinen ja kasautuu hankkeiden valmistumisvu
 
 ¹ Tulovero sisältää vain suorien työntekijöiden palkoista kertyvän tuloveron, ei epäsuorien tai indusoitujen työntekijöiden tuloveroa. Verotulot yhteensä -luku on siis tältä osin aliarvio.
 
-## 4. Vaikutus muuhun rakentamiseen: sähköverkot
+## 3. Vaikutus muuhun rakentamiseen: sähköverkot
 
 Datakeskukset lisäävät sähkönkulutusta ja kantaverkkoinvestointeja. Fingrid suunnittelee investoivansa noin 5,2 mrd. € vuoteen 2035 mennessä (noin 2,0 mrd. € vuosina 2025–2028), mutta suunnitelma ei erittele investointeja asiakastyypeittäin, joten datakeskusten osuutta ei voi lukea siitä suoraan. Noin puolet noin 70 GW:n kulutuksen liityntäkyselyistä liittyy datakeskuksiin, ja Fingridin arvion mukaan realistisesti noin kymmenesosa kyselyistä toteutuu, mikä tarkoittaisi noin 5 GW:n lisäystä kulutukseen.
 
 Datakeskusten kasvava sähkönkulutus edellyttää myös uutta tuotantokapasiteettia, josta merkittävä osa rakennetaan Suomessa tuulivoimana – osin suoraan datakeskusyhtiöiden pitkäaikaisten sähkönostosopimusten (PPA) turvin. Teema ei kuitenkaan sisällytä tuulivoimainvestointeja tarkasteluun: niitä ei voi erottaa luotettavasti muusta, datakeskuksista riippumattomasta tuulivoimarakentamisesta, eikä niitä voi laskea yhteen datakeskusten omien pääomamenojen kanssa ilman kaksoislaskentaa, koska osa yhtiöiden (esim. Googlen) ilmoittamista investointisummista sisältää jo omia energiahankkeitaan.
 
-## 5. Kerrannais- ja syrjäyttämisvaikutukset
+## 4. Kerrannais- ja syrjäyttämisvaikutukset
 
 Laskelma sisältää kerrannaisvaikutuksena vain palkoista syntyvän kulutuksen, eikä se oleta laajempia toimittajaketjun kerrannaisvaikutuksia, joiden suuruudesta ei ole luotettavaa tietoa. Syrjäyttämistä voi syntyä kolmen kanavan kautta: työvoima, sähköverkon kapasiteetti ja sähkön hinta. Rakennusalan heikko tilanne vähentää työvoiman syrjäytymistä, mutta Etelä-Suomen liityntärajoitukset (poistuvat asteittain vuosina 2027–2029) rajoittavat samalla muita sähkön suurkuluttajia. **\[TÄYDENNETTÄVÄ: sähkön hinta ja kotitalouksien ostovoima.\]**
 
-## 6. Yhteenveto
+## 5. Yhteenveto
 
 Datakeskusinvestoinneista noin kymmenesosa–viidennes näkyy Suomen BKT:ssä – karkeasti joka viides investoitu euro jää kotimaiseen rakennus- ja asennustyöhön sekä työntekijöiden kulutukseen, loput kuluvat ulkomailta tuotuihin IT-laitteisiin. Vuosina 2027–2028 valmistuvien hankkeiden rakentaminen kasvattaisi Suomen bruttokansantuotetta yhteensä noin 6,1 mrd. € (vaihteluväli noin 3,3–7,8 mrd. €), eli keskimäärin noin 3 mrd. € vuodessa.
 

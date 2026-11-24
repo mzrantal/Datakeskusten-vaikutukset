@@ -63,7 +63,11 @@ Laskelma sisältää kerrannaisvaikutuksena vain palkoista syntyvän kulutuksen,
 
 ## 6. Yhteenveto
 
-Datakeskusinvestoinneista noin kymmenesosa–viidennes näkyy Suomen BKT:ssä – karkeasti joka viides investoitu euro jää kotimaiseen rakennus- ja asennustyöhön sekä työntekijöiden kulutukseen, loput kuluvat ulkomailta tuotuihin IT-laitteisiin. Vuosina 2027–2028 valmistuvien hankkeiden rakentaminen kasvattaisi Suomen bruttokansantuotetta yhteensä noin 6,1 mrd. € (vaihteluväli noin 3,3–7,8 mrd. €), eli keskimäärin noin 3 mrd. € vuodessa. Rakennusvaiheessa vaikutus on kertaluonteinen. Käyttövaiheen vaikutus on pysyvä mutta työllisyydeltään vähäinen. Suurimmat epävarmuudet ovat hankkeiden toteutuminen, ajoitus ja syrjäyttäminen. **\[TÄYDENNETTÄVÄ: viimeistele, kun käyttövaiheen luvut on laskettu.\]**
+Datakeskusinvestoinneista noin kymmenesosa–viidennes näkyy Suomen BKT:ssä – karkeasti joka viides investoitu euro jää kotimaiseen rakennus- ja asennustyöhön sekä työntekijöiden kulutukseen, loput kuluvat ulkomailta tuotuihin IT-laitteisiin. Vuosina 2027–2028 valmistuvien hankkeiden rakentaminen kasvattaisi Suomen bruttokansantuotetta yhteensä noin 6,1 mrd. € (vaihteluväli noin 3,3–7,8 mrd. €), eli keskimäärin noin 3 mrd. € vuodessa.
+
+Rakennusvaiheen vaikutus on kertaluonteinen ja keskittyy muutamalle vuodelle hankkeiden valmistuessa, kun taas käyttövaiheen vaikutus on pysyvä mutta selvästi pienempi ja työllisyydeltään vähäinen: käynnissä oleva datakeskus tarvitsee vain vähän omaa henkilöstöä. Jos uusia hankkeita ei käynnisty tasaiseen tahtiin, rakentamisen tuoma piikki BKT:ssa ja työllisyydessä voi hiipua nopeasti.
+
+Suurin yksittäinen epävarmuus koskee sitä, kuinka suuri osa ilmoitetuista hankkeista lopulta toteutuu: tässä esitetyt luvut perustuvat jo karkeaan toteutumapainotukseen, jossa vain osa suunnitteilla olevista hankkeista oletetaan etenevän. Myös hankkeiden tarkka ajoitus ja mahdollinen syrjäytyminen muusta taloudesta – työvoimasta ja sähköverkon kapasiteetista – jäävät arvioiden varaan.
 
 ## Liite: Laskentakaavat
 

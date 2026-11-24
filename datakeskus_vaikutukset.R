@@ -52,12 +52,20 @@ P <- list(
   kotimainen_osuus      = c(0.12, 2500 / 12000, 0.23),
   # Kotimaisten urakoiden tuontisisältö (materiaalit, komponentit) [O]
   kotim_tuontisisalto   = c(0.25, 0.20, 0.15),
-  # Oletusrakennusaika vuosina [O] (Rambollin 12 mrd. kokonaisuus 2025-2030)
-  rakennusvuodet        = 3,
+  # Oletusrakennusaika vuosina [O] (Googlen oma 13 mrd. euron ohjelma
+  # 2027-2028 on kaksivuotinen; käytetään samaa oletusta yleisesti)
+  rakennusvuodet        = 2,
 
   # --- Rakennusvaihe: työllisyys ja kulutus ---------------------------------
-  # Työllisyys 3 750 htv / mrd. € (suora + epäsuora) [M, Ramboll]
-  rak_htv_per_mrd       = c(3750, 3750, 3750),
+  # Työllisyys n. 1 230 htv / mrd. € - johdettu Googlen oman 9/2026 ilmoituksen
+  # mukaan koko 13 mrd. euron Suomi-ohjelmasta (n. 16 000 rakennustyöpaikkaa).
+  # Huomattavasti matalampi kuin koko rakennusalan toimialakeskiarvo
+  # (Tilastokeskus 14yn/14yq: n. 4 230 htv/mrd. €, 2022), koska valtaosa
+  # (65-75 %) datakeskusinvestoinnista on tuotua IT-/palvelininfraa, joka ei
+  # juuri työllistä paikallista rakennustyövoimaa - toisin kuin esim.
+  # prosessiteollisuuden tehdashankkeet. Yhtiön oma projektioluku, ei
+  # auditoitu lopputulos. [O, Google 9/2026]
+  rak_htv_per_mrd       = c(1231, 1231, 1231),
   # Keskipalkka rakennusvaiheessa, € / htv [M]
   rak_keskipalkka       = c(45000, 45000, 45000),
   # Suomessa asuvien työntekijöiden osuus [M, Hukkanen & Syväkuru]
@@ -83,16 +91,26 @@ P <- list(
   rak_kiinteistovero_os = 0.5,
 
   # --- Käyttövaihe: työllisyys ----------------------------------------------
-  # Kokonaistyöllisyys (suora + epäsuora) htv / mrd. € / vuosi [M]
-  # (7 500 htv / 12 mrd. = 625; 9 900 htv / 12 mrd. = 825)
-  kaytto_htv_per_mrd    = c(625, 725, 825),
-  # Suorat työntekijät (henkilöstö ja ylläpito) per 12 mrd. € [M]
+  # Suorat työntekijät (henkilöstö ja ylläpito) per 12 mrd. € [M] - osuu
+  # lähelle Googlen Haminan datakeskuksen todellista työllisyyttä (n. 400-500
+  # henkilöä / n. 4,5 mrd. € kumulatiivista investointia vuodesta 2009 ≈
+  # 89-111 htv/mrd. €), joten tätä ei muuteta.
   kaytto_suorat_12      = c(500, 1000, 1500),
+  # Kokonaistyöllisyys (suora + epäsuora) htv / mrd. € / vuosi. Epäsuora
+  # osuus = suora x 1,2 (Googlen oman Deloitte-selvityksen rakennusvaiheen
+  # suhdeluku 2024 Hamina-laajennuksesta: 1 900 suoraa / 1 650 epäsuoraa +
+  # 640 indusoitua ≈ 1,2x suorasta). Korvaa muistion alkuperäisen n. 5-6x
+  # -kertoimen, joka antoi epäuskottavan korkeita (n. 625-825 htv/mrd. €)
+  # lukuja Haminan todelliseen työllisyyteen verrattuna. [O, uudelleenarvioitu]
+  kaytto_htv_per_mrd    = c(500, 1000, 1500) / 12 * 2.2,
   # Henkilöstö- ja ylläpitokulu, € / htv (1 000 htv = 100 M€) [M]
   henkilostokulu_htv    = c(100000, 100000, 100000),
-  # Palkkasummat käyttövaiheessa, M€ / v per 12 mrd. € [M]
+  # Palkkasummat käyttövaiheessa, M€ / v per 12 mrd. € [M, suora osuus]
   kaytto_palkat_suorat_12   = c(72, 84, 96),
-  kaytto_palkat_epasuor_12  = c(405, 450, 495),
+  # Epäsuora palkkasumma = suora x 1,2 (sama Deloitte-pohjainen kerroin kuin
+  # yllä, ks. kaytto_htv_per_mrd). Korvaa muistion alkuperäisen n. 5-6x
+  # -kertoimen (405, 450, 495). [O, uudelleenarvioitu]
+  kaytto_palkat_epasuor_12  = c(72, 84, 96) * 1.2,
 
   # --- Käyttövaihe: sähkö ja liiketoiminta ----------------------------------
   # Sähköteho MW / mrd. € (1 215 MW / 12 mrd. €) [M]
@@ -123,9 +141,6 @@ P <- list(
   tyolliset             = 2600000,  # Työllisten määrä [O]
   kayttovuodet          = 10        # Kumulatiivisen tarkastelun käyttövuodet [O]
 )
-
-# Rambollin bruttoluvut per mrd. € vertailua varten [M]
-RAMBOLL <- list(rak_htv = 3750, verotulot = 142, liikevaihto = 250, mw = 101)
 
 # -----------------------------------------------------------------------------
 # APUFUNKTIOT
@@ -339,16 +354,6 @@ aja_laskelma <- function(inv, rakennusvuodet = P$rakennusvuodet, p = P) {
               fmt(t[[2]]$mw), fmt(t[[2]]$sahko_twh, 2)))
 
   for (tb in tt$taulukot) tulosta_taulukko(tb$otsikko, tb$rivit)
-
-  m <- t[[2]]
-  cat("\n7. VERTAILU RAMBOLLIN BRUTTOLUKUIHIN (keskimmäinen skenaario)\n")
-  cat("--------------------------------------------------------------\n")
-  cat(sprintf("Rakennusvaiheen verotulot: Ramboll %s M€, tämä laskelma %s M€\n",
-              fmt(RAMBOLL$verotulot * inv), fmt(sum(m$vero_rak))))
-  cat(sprintf("Käyttövaiheen liikevaihto: Ramboll %s M€/v, Suomeen kirjautuva palveluvienti %s M€/v\n",
-              fmt(RAMBOLL$liikevaihto * inv), fmt(m$X)))
-  cat("Ero johtuu siitä, ettei tämä laskelma huomioi ALV-palautuksia bruttona ja\n")
-  cat("siirtohinnoittelun vuoksi Suomen tytäryhtiölle kirjautuu vain kulut + voittolisä.\n")
 
   cat("\nHUOMIOITA\n---------\n")
   cat("- Sähkövero on käyttövaiheen suurin verotulo (n. 80 %). Jos datakeskukset\n")

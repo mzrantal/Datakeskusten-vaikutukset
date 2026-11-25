@@ -10,6 +10,13 @@ vertailukelpoisia.
 > **Luonteesta.** Tämä on *suuntaa-antava vertailu*, ei tarkka korvaava
 > laskelma. Katso luku 2, miksi.
 
+> **Päivitys.** Tämän muistion rakennusvaiheen havainto - että
+> pääasiakirjan "vain suorat työntekijät" -tulovero saattaa aliarvioida
+> todellista verokertymää - on sittemmin **toteutettu**: sekä pääasiakirja
+> että teema laskevat tulon nyt koko työllisyyspohjalta (suorat +
+> aliurakoitsijaketjun epäsuorat työntekijät). Alla olevat
+> "pääasiakirjan malli" -luvut on päivitetty vastaamaan tätä muutosta.
+
 ## 1. Menetelmäero pääasiakirjan malliin
 
 Pääasiakirjan malli perustuu Googlen oman Hamina-laajennuksen ilmoitettuun
@@ -104,18 +111,17 @@ Kotimainen rakennusurakoiden laskutus = 33 mrd. € × 20,8 % ≈ **6 875 milj. 
 | Työllisyys (kok.) | 40 600 htv | 37 800-52 300 htv |
 | joista kotimaisia/verotettavia | 18 400 (suorat) | 22 700-31 400 (60 % Tyyppi I:stä) |
 | Arvonlisäys/BKT-vaikutus | 6 140 milj. € (BKT, menoerittely) | 3 130-5 200 milj. € (arvonlisäys, tuotantolähestymistapa - eri käsite, ks. luku 1) |
-| Verotulot (ilman kiinteistöveroa) | 320 milj. € | 509-752 milj. € |
+| Verotulot (ilman kiinteistöveroa) | 456,9 milj. € | 509-752 milj. € |
 
 **Havainto.** Kokonaistyöllisyysarvio on samaa suuruusluokkaa molemmilla
 menetelmillä - panos-tuotos-haarukka asettuu pääasiakirjan luvun (40 600)
-molemmin puolin. Verotulot ovat panos-tuotos-mallilla selvästi
-**korkeammat**, koska se verottaa tuloverolla koko Tyyppi I -työllisyyden
-(myös aliurakoitsijoiden ja toimitusketjun työntekijät), kun taas
-pääasiakirja laskee tuloveron tietoisesti vain Googlen omasta
-suorasta työllisyydestä (ks. teeman alaviite). Jos aliurakoitsijaketjun
-työntekijät todella ovat Suomessa verovelvollisia - mikä on todennäköistä -
-pääasiakirjan nykyinen tulovero-arvio saattaa olla **varovainen
-alakanttiin**-arvio, ei yläkanttiin.
+molemmin puolin. Pääasiakirja on sittemmin päivitetty laskemaan tuloveron
+koko työllisyyspohjalta (suorat + aliurakoitsijaketjun epäsuorat
+työntekijät) tämän muistion alkuperäisen havainnon pohjalta - ks. yllä oleva
+päivityshuomautus. Tämän jälkeen pääasiakirjan verotuloarvio (456,9 milj. €)
+asettuu lähelle panos-tuotos-haarukan alarajaa (509-752 milj. €), eli
+menetelmät tukevat nyt toisiaan huomattavasti paremmin kuin ennen
+päivitystä (jolloin pääasiakirjan luku oli vain 320 milj. €).
 
 ## 5. Käyttövaihe (vuodessa, 33 mrd. €, keskimmäinen skenaario)
 
@@ -149,17 +155,18 @@ Verotuloja ei lasketa tälle osiolle erikseen panos-tuotos-mallilla: koska
 kyse on vain osittaisesta (sähkötoimialan) kerrannaisvaikutuksesta eikä koko
 käyttövaiheen epäsuorasta vaikutuksesta, karkea verotulolaskelma antaisi
 harhaanjohtavan alhaisen luvun ilman todellista lisäarvoa pääasiakirjan omaan
-arvioon (723 milj. €/v) nähden.
+arvioon (789,5 milj. €/v) nähden.
 
 ## 6. Yhteenveto
 
 - **Rakennusvaiheen työllisyys**: samaa suuruusluokkaa molemmilla
   menetelmillä (37 800-52 300 vs. 40 600 htv) - ei anna syytä epäillä
   pääasiakirjan lukua liioitelluksi.
-- **Rakennusvaiheen verotulot**: panos-tuotos-malli viittaa siihen, että
-  pääasiakirjan nykyinen, tietoisen varovainen "vain suorat työntekijät"
-  -rajaus tuloverossa saattaa aliarvioida todellista verokertymää, jos
-  aliurakoitsijaketjun työntekijät ovat Suomessa verovelvollisia.
+- **Rakennusvaiheen verotulot**: panos-tuotos-mallin havainto siitä, että
+  pääasiakirjan aiempi "vain suorat työntekijät" -rajaus tuloverossa saattoi
+  aliarvioida todellista verokertymää, on johtanut pääasiakirjan ja teeman
+  päivittämiseen - tulovero lasketaan nyt koko työllisyyspohjalta. Luvut
+  ovat tämän jälkeen huomattavasti lähempänä toisiaan.
 - **Käyttövaiheen työllisyys**: menetelmät eivät ole suoraan vertailukelpoisia,
   koska panos-tuotos-laskelma kattaa vain sähkön toimitusketjun, ei koko
   Deloitte-kertoimen laajuutta.

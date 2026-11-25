@@ -85,16 +85,21 @@ P <- list(
   # --- Rakennusvaihe: verotulot (M€ per 12 mrd. €) --------------------------
   rak_yhteisovero_12    = c(25, 42, 60),    # urakoitsijat, toimittajat [M]
   rak_alv_12            = c(20, 33, 45),    # nettona, työntekijöiden kulutus [M]
-  # Tulovero vain suorista tyontekijoista (n. 6 714,5 suoraa per 12 mrd. e,
-  # 1231 htv/mrd. e x 12 x 1/2,2 Deloitte-suhteella), ei enaa Rambollin
-  # alkuperaisesta 45 000 htv:n (suora+epasuora+indusoitu) kokonaismaarasta,
-  # jolle luku oli aiemmin virheellisesti laskettu. Keskipalkka 45 000 e,
-  # verotettava tulo = 91,8 % brutosta - 750 e = 40 560 e/tyontekija, vuoden
-  # 2026 valtion tuloveroasteikolla (40 100-52 100 e: 33,25 %, alaraja
+  # Tulovero koko rakennusvaiheen tyollisyydesta - suorat JA aliurakoitsija-
+  # ketjun epasuorat tyontekijat (n. 14 772 htv per 12 mrd. e, 1231 htv/mrd. e
+  # x 12, Googlen omasta ilmoituksesta), ei enaa vain suorista (n. 6 714,5
+  # htv, 1/2,2 Deloitte-suhteella): aliurakoitsijaketjun tyontekijat ovat
+  # todennakoisesti my os Suomessa verovelvollisia, joten my os heidan
+  # tulonsa on perusteltua laskea tuloverokertymaan mukaan. Keskipalkka
+  # 45 000 e (sama oletus kaikille, myos epasuorille - yksinkertaistava
+  # oletus), verotettava tulo = 91,8 % brutosta - 750 e = 40 560 e/tyontekija,
+  # vuoden 2026 valtion tuloveroasteikolla (40 100-52 100 e: 33,25 %, alaraja
   # 7 063,55 e) 7 216,50 e + kunnallisvero 7,57 % x 40 560 e = 3 070,39 e,
   # yhteensa 10 286,89 e/tyontekija (100 % Suomessa verotettuna), kerrottuna
-  # suomalaisten_osuus-skenaariolla. [O, uudelleenlaskettu]
-  rak_tulovero_12       = c(34.54, 41.44, 48.35), # valtio + kunnat [O]
+  # suomalaisten_osuus-skenaariolla. Rambollin alkuperainen 45 000 htv:n
+  # kokonaismaaraan perustunut luku oli virheellinen eri syysta (vaarasta
+  # tyollisyyspohjasta), ks. git-historia. [O, uudelleenlaskettu]
+  rak_tulovero_12       = c(75.98, 91.17, 106.37), # valtio + kunnat [O]
   rak_tulovero_valtio   = c(0.7015, 0.7015, 0.7015), # valtion osuus tuloverosta [O]
   # Rakennusaikainen kiinteistövero = osuus käyttövaiheen vuosiverosta [M]
   rak_kiinteistovero_os = 0.5,
@@ -137,7 +142,12 @@ P <- list(
   yhteisoveroaste       = 0.20,                # [M]
   yhteisovero_kunnat    = 1 / 3,               # kuntien jako-osuus [M]
   kaytto_alv_12         = c(3, 7, 11),         # M€ / v per 12 mrd. [M]
-  kaytto_tulovero_12    = c(8, 20.1, 36.5),    # suorat työntekijät [M]
+  # Tulovero koko kayttovaiheen tyollisyydesta - suorat JA epasuorat/
+  # aliurakoitsijaketjun tyontekijat (2,2x suorien maara, sama Deloitte-
+  # suhde kuin tyollisyydessa). Alkuperainen muistion luku (8,0/20,1/36,5,
+  # vain suorat) kerrottu 2,2:lla samalla per-tyontekija-tuloverooletuksella.
+  # [M, laajennettu O]
+  kaytto_tulovero_12    = c(17.6, 44.22, 80.3), # suorat + epäsuorat [M/O]
   kaytto_tulovero_valtio = c(5.9 / 8, 15.3 / 20.1, 28.2 / 36.5), # [M]
   # Kiinteistöjen verotusarvo per 12 mrd. € (M€) ja veroprosentti [M]
   verotusarvo_12        = c(1500, 1750, 2000),

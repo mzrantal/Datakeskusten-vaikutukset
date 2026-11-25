@@ -127,12 +127,19 @@ P <- list(
   kaytto_palkat_epasuor_12  = c(72, 84, 96) * 1.2,
 
   # --- Käyttövaihe: sähkö ja liiketoiminta ----------------------------------
-  # Sähköteho MW / mrd. € (noin 100 MW / mrd. €, Dataikkunan aineiston
-  # perusteella: yhden miljardin datakeskusinvestointi johtaa noin 100 MW
-  # suuruisen datakeskuksen rakentamiseen). Korvaa aiemman, Rambollin
-  # alkuperäisestä selvityksestä periytyneen 101,25 MW/mrd. €:n luvun
-  # (1 215 MW / 12 mrd. €). [O, Dataikkuna]
-  mw_per_mrd            = c(1200, 1200, 1200) / 12,
+  # Sähköteho MW / mrd. € koko investoinnista (IT-laitteet mukaan lukien).
+  # VTT:n Datakeskusteollisuudelle tekemän selvityksen (julk. 28.10.2026)
+  # mukaan 100 MW:n datakeskus vaatii 1-1,2 mrd. €:n investoinnin, mutta
+  # ILMAN IT-laitteita (pelkka rakennus- ja infrainvestointi). Koska
+  # IT-/palvelininfrastruktuuri on noin 65-75 % koko investoinnista (ks.
+  # Datakeskusinvestoinnin pääomarakenteesta -taulukko muissa selvityksissa),
+  # rakentamisen osuus on vain 25-35 %. Tama antaa koko investoinnille
+  # (IT mukaan lukien) suhdeluvuksi n. 1,1 mrd. € / 0,25-0,35 = 2,9-4,4
+  # mrd. € per 100 MW eli n. 23-34 MW/mrd. €, pyoristettyna noin 30 MW/mrd. €.
+  # Korvaa aiemman, liian korkean 100 MW/mrd. €:n luvun, joka sovelsi
+  # VTT:n ILMAN-IT-luvun koko IT-laitteet sisaltavaan investointisummaan.
+  # [O, VTT + Ramboll (IT-osuus)]
+  mw_per_mrd            = c(30, 30, 30),
   # Käyttöaste [M]
   kayttoaste            = c(0.75, 0.85, 0.90),
   # Sähköenergia + kantaverkon siirtomaksu, € / MWh [M]

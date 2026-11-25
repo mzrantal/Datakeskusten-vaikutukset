@@ -126,19 +126,22 @@ päivitystä (jolloin pääasiakirjan luku oli vain 320 milj. €).
 ## 5. Käyttövaihe (vuodessa, 33 mrd. €, keskimmäinen skenaario)
 
 Datakeskuksen kotimainen sähkönosto (energia + siirto, tuontisähkön osuus
-vähennettynä) pääasiakirjan mallista: **1 343,6 milj. €/v**. Tätä käsitellään
-tässä lopputuotekysyntänä sähkötoimialalle (TOL D).
+vähennettynä) pääasiakirjan mallista: **398,1 milj. €/v** (pienentynyt,
+koska pääasiakirjan sähkötehosuhde on sittemmin korjattu 100:sta noin
+30 MW/mrd. €:oon - ks. VTT:n ja Rambollin selvityksiin perustuva
+korjaus). Tätä käsitellään tässä lopputuotekysyntänä sähkötoimialalle
+(TOL D).
 
 **Työllisyys.** Datakeskuksen oma suora henkilöstö (sama kuin
 pääasiakirjassa, ei I-O-johdettu): 2 750 htv/v. Epäsuora työllisyys
 sähköntuotannon/-jakelun toimitusketjussa (kerroin 300-600 htv/mrd. €):
-**400-810 htv/v**. **Yhteensä: n. 3 150-3 560 htv/v.**
+**119-239 htv/v**. **Yhteensä: n. 2 870-2 990 htv/v.**
 
 ### Vertailu pääasiakirjaan
 
 | | Pääasiakirjan malli | Panos-tuotos-vaihtoehto |
 |---|---|---|
-| Työllisyys (kok.) | 6 050 htv/v (suorat 2 750 + epäsuora+indusoitu 3 300, Deloitte-kerroin 1,2×) | 3 150-3 560 htv/v (suorat 2 750 + vain sähkötoimialan epäsuora työllisyys) |
+| Työllisyys (kok.) | 6 050 htv/v (suorat 2 750 + epäsuora+indusoitu 3 300, Deloitte-kerroin 1,2×) | 2 870-2 990 htv/v (suorat 2 750 + vain sähkötoimialan epäsuora työllisyys) |
 
 **Havainto.** Panos-tuotos-haarukka jää selvästi pääasiakirjan lukua
 matalammaksi, mutta tämä **ei tarkoita, että pääasiakirjan luku olisi
@@ -155,7 +158,7 @@ Verotuloja ei lasketa tälle osiolle erikseen panos-tuotos-mallilla: koska
 kyse on vain osittaisesta (sähkötoimialan) kerrannaisvaikutuksesta eikä koko
 käyttövaiheen epäsuorasta vaikutuksesta, karkea verotulolaskelma antaisi
 harhaanjohtavan alhaisen luvun ilman todellista lisäarvoa pääasiakirjan omaan
-arvioon (789,5 milj. €/v) nähden.
+arvioon (378,1 milj. €/v) nähden.
 
 ## 6. Yhteenveto
 

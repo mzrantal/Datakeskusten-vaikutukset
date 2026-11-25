@@ -127,8 +127,12 @@ P <- list(
   kaytto_palkat_epasuor_12  = c(72, 84, 96) * 1.2,
 
   # --- Käyttövaihe: sähkö ja liiketoiminta ----------------------------------
-  # Sähköteho MW / mrd. € (1 215 MW / 12 mrd. €) [M]
-  mw_per_mrd            = c(1215, 1215, 1215) / 12,
+  # Sähköteho MW / mrd. € (noin 100 MW / mrd. €, Dataikkunan aineiston
+  # perusteella: yhden miljardin datakeskusinvestointi johtaa noin 100 MW
+  # suuruisen datakeskuksen rakentamiseen). Korvaa aiemman, Rambollin
+  # alkuperäisestä selvityksestä periytyneen 101,25 MW/mrd. €:n luvun
+  # (1 215 MW / 12 mrd. €). [O, Dataikkuna]
+  mw_per_mrd            = c(1200, 1200, 1200) / 12,
   # Käyttöaste [M]
   kayttoaste            = c(0.75, 0.85, 0.90),
   # Sähköenergia + kantaverkon siirtomaksu, € / MWh [M]

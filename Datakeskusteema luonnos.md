@@ -6,7 +6,7 @@ Suomeen on ilmoitettu viime vuosina kymmenien miljardien eurojen datakeskusinves
 
 **Mitä mitataan.** Teemassa arvioidaan datakeskusinvestointien vaikutusta Suomen talouteen kolmella mittarilla: arvonlisäyksellä, joka vastaa BKT-vaikutusta, työllisyydellä ja julkisen talouden verotuloilla. Vaikutukset esitetään nettona eli kotimaiselle taloudelle jäävänä osuutena.
 
-**Oletukset datakeskusten määrästä.** Hankekanta perustuu Dataikkunaan, joka kokoaa julkisista lähteistä Suomeen ilmoitetut datakeskushankkeet. Aineistossa on 170 hankeriviä, joka vastaa noin 150 hanketta ja 97 investoijaa. Valmistumisvuosi on tiedossa vain noin puolella riveistä, joten tarkastelu rajataan vuosina 2027–2028 valmistuviksi ilmoitettuihin 44 riviin (42 hanketta), joiden ilmoitettu investointisumma on noin 58 mrd. €. Näistä 15 hanketta (noin 28 mrd. €) on aloitettu, ja oletuksena on, että aloitetut viedään loppuun. Muiden hankkeiden oletetaan toteutuvan vaiheen mukaan: esiselvitysvaiheessa olevista 0–5 %, suunnitteluvaiheessa olevista 5–15 % ja investointipäätöksen tehneistä mutta aloittamattomista 15–40 %. Oletukset ovat saman suuntaisia kuin parhaiten saatavilla oleva vertailutieto. Näillä oletuksilla vuosina 2027–2028 valmistuvien datakeskushankkeiden investointiarvo on noin 31–36 mrd. € (keskimäärin 33 mrd. €). Dataikkunan aineiston perusteella yhden miljardin datakeskusinvestointi johtaa noin 100 MW suuruisen datakeskuksen rakentamiseen. Täten 33 mrd. €:n investointi vastaisi noin 3 300 megawatin sähkötehoa, josta keskimäärin 85 %:n käyttöasteella (3 300 MW × 8 760 h/v × 0,85) saadaan vuotuiseksi sähkönkulutukseksi noin 24,88 TWh.
+**Oletukset datakeskusten määrästä.** Hankekanta perustuu Dataikkunaan, joka kokoaa julkisista lähteistä Suomeen ilmoitetut datakeskushankkeet. Aineistossa on 170 hankeriviä, joka vastaa noin 150 hanketta ja 97 investoijaa. Valmistumisvuosi on tiedossa vain noin puolella riveistä, joten tarkastelu rajataan vuosina 2027–2028 valmistuviksi ilmoitettuihin 44 riviin (42 hanketta), joiden ilmoitettu investointisumma on noin 58 mrd. €. Näistä 15 hanketta (noin 28 mrd. €) on aloitettu, ja oletuksena on, että aloitetut viedään loppuun. Muiden hankkeiden oletetaan toteutuvan vaiheen mukaan: esiselvitysvaiheessa olevista 0–5 %, suunnitteluvaiheessa olevista 5–15 % ja investointipäätöksen tehneistä mutta aloittamattomista 15–40 %. Oletukset ovat saman suuntaisia kuin parhaiten saatavilla oleva vertailutieto. Näillä oletuksilla vuosina 2027–2028 valmistuvien datakeskushankkeiden investointiarvo on noin 31–36 mrd. € (keskimäärin 33 mrd. €). Dataikkunan aineiston perusteella yhden miljardin datakeskusinvestointi johtaa noin 100 MW suuruisen datakeskuksen rakentamiseen. Täten 33 mrd. €:n investointi vastaisi noin 3 300 megawatin sähkötehoa, josta keskimäärin 85 %:n käyttöasteella (3 300 MW × 8 760 h/v × 0,85) saadaan vuotuiseksi sähkönkulutukseksi noin 24,57 TWh.
 
 > [!CAUTION]
 > Vain luonnokseen, poistetaan lopullisesta versiosta: Toteutumaoletukset (0–5 %, 5–15 %, 15–40 %) tukeutuvat neljään vertailuhavaintoon. Fingridin oman arvion mukaan noin kymmenesosa sähkön liityntäkyselyistä toteutuu lopulta kapasiteettina – ja esiselvitysvaihe on tätäkin liityntävaihetta aikaisempi, joten sille asetettu 0–5 % on perusteltua pitää Fingridin lukuakin varovaisempana. Myös kansainväliset liityntäjonotilastot tukevat varovaisuutta: Yhdysvalloissa Lawrence Berkeley National Laboratoryn mukaan vain noin 13 % vuosien 2000–2019 liityntähakemuksista oli edennyt kaupalliseen käyttöön vuoteen 2024 mennessä, ja verkko-operaattorit PJM ja AEP Ohio ovat sitovan maksuvelvoitteen käyttöönoton jälkeen hyväksyneet enää 57 % ja 43 % ilmoitetusta kuormasta. Tämä jälkimmäinen vaihe vastaa lähinnä investointipäätösvaihetta, jolle on silti asetettu tätäkin matalampi, 15–40 %:n haarukka. Lisäksi varovaisuutta tukevat tuoreet Suomi-kohtaiset signaalit: viranomainen määräsi lokakuussa 2026 pysäyttämään työt kahdella Googlen datakeskustontilla kesken olevan ympäristölupaprosessin vuoksi, ja hallitus perui syyskuussa 2026 suunnitellun datakeskustuen.
@@ -19,18 +19,18 @@ Rakennusvaiheen vaikutus on kertaluonteinen ja kasautuu hankkeiden valmistumisvu
 
 **Rakennusvaihe.** Työllisyysvaikutus koko rakennusajalta on yhteensä noin 40 600 henkilötyövuotta (vaihteluväli 38 200–44 300), joista suoria rakennus- ja asennustyöpaikkoja noin 18 400. Verotuloja (yhteisövero, arvonlisävero, tulovero ja kiinteistövero yhteensä) kertyy koko rakennusajalta noin 517 milj. € (vaihteluväli 359–712 milj. €). Arvonlisäys eli BKT-vaikutus on noin 6,1 mrd. € (vaihteluväli 3,3–7,8 mrd. €).
 
-**Käyttövaihe.** Datakeskukset työllistävät suoraan vähän (aineiston mediaani on 0,76 pysyvää työpaikkaa megawattia kohti), ja käyttökustannuksista suuri osa on sähköä. Valmiina ollessaan hankekanta tuottaisi vuosittain toistuvan työllisyysvaikutuksen, joka on yhteensä noin 6 000 henkilötyövuotta (vaihteluväli 2 800–9 900), joista suoraan datakeskusten omaa ylläpito- ja käyttöhenkilöstöä noin 2 750. Verotuloja (samat erät kuin rakennusvaiheessa, lisäksi sähkövero) kertyy vuosittain noin 0,79 mrd. € (vaihteluväli 0,58–1,04 mrd. €). Arvonlisäys on noin 2,0 mrd. € vuodessa (vaihteluväli 1,2–2,8 mrd. €).
+**Käyttövaihe.** Datakeskukset työllistävät suoraan vähän (aineiston mediaani on 0,76 pysyvää työpaikkaa megawattia kohti), ja käyttökustannuksista suuri osa on sähköä. Valmiina ollessaan hankekanta tuottaisi vuosittain toistuvan työllisyysvaikutuksen, joka on yhteensä noin 6 000 henkilötyövuotta (vaihteluväli 2 800–9 900), joista suoraan datakeskusten omaa ylläpito- ja käyttöhenkilöstöä noin 2 750. Verotuloja (samat erät kuin rakennusvaiheessa, lisäksi sähkövero) kertyy vuosittain noin 0,78 mrd. € (vaihteluväli 0,58–1,03 mrd. €). Arvonlisäys on noin 1,9 mrd. € vuodessa (vaihteluväli 1,2–2,8 mrd. €).
 
 | Netto | Rakennusvaihe 2027–2028 (kumulatiivinen) | Käyttövaihe (vuosittain) |
 | --- | --- | --- |
-| Arvonlisäys (BKT-vaikutus) | noin 6,1 mrd. € (3,3–7,8) | noin 2,0 mrd. €/v (1,2–2,8) |
+| Arvonlisäys (BKT-vaikutus) | noin 6,1 mrd. € (3,3–7,8) | noin 1,9 mrd. €/v (1,2–2,8) |
 | Työllisyys | noin 40 600 htv (38 200–44 300), josta suoria n. 18 400 | noin 6 000 htv/v (2 800–9 900), josta suoria n. 2 750 |
-| Verotulot yhteensä | noin 517 milj. € (359–712) | noin 0,79 mrd. €/v (0,58–1,04) |
+| Verotulot yhteensä | noin 517 milj. € (359–712) | noin 0,78 mrd. €/v (0,58–1,03) |
 | &nbsp;&nbsp;– Yhteisövero | noin 116 milj. € (65–180) | noin 25 milj. €/v (14–39) |
 | &nbsp;&nbsp;– Arvonlisävero (netto) | noin 91 milj. € (52–135) | noin 19 milj. €/v (8–33) |
 | &nbsp;&nbsp;– Tulovero¹ | noin 251 milj. € (196–319) | noin 122 milj. €/v (46–241) |
 | &nbsp;&nbsp;– Kiinteistövero | noin 60 milj. € (47–78) | noin 60 milj. €/v (47–78) |
-| &nbsp;&nbsp;– Sähkövero | – | noin 564 milj. €/v (467–651) |
+| &nbsp;&nbsp;– Sähkövero | – | noin 557 milj. €/v (462–643) |
 
 ¹ Tulovero on laskettu koko työllisyyspohjalta - sekä suorista työntekijöistä että epäsuorista, aliurakoitsijaketjun työntekijöistä - samalla keskipalkka- ja Suomessa-verotettu-osuus-oletuksella molemmille ryhmille. Tämä on yksinkertaistava oletus: jos aliurakoitsijaketjun työntekijöiden palkkataso tai Suomessa-verovelvollisuuden osuus poikkeaa suorista työntekijöistä, verotulo poikkeaa tästä arviosta.
 
@@ -77,7 +77,7 @@ Suurin yksittäinen epävarmuus koskee sitä, kuinka suuri osa ilmoitetuista han
 
 **Käyttövaihe** (vuodessa): BKT_kaytto = X + C_kaytto − M_sahko − M_C_kaytto
 
-- mw = *inv* × mw_per_mrd[s] (101 MW/mrd. €, Rambollin alkuperäinen, muuttumaton oletus – ei Google/Hamina-kalibroitu, ks. Avoimet kohdat)
+- mw = *inv* × mw_per_mrd[s] (noin 100 MW/mrd. €, Dataikkunan aineiston perusteella – ks. yllä)
 - sahko_mwh = mw × kayttoaste[s] × 8 760 h (0,75/0,85/0,90 käyttöaste)
 - sahkokulut = sahko_mwh × sahkon_hinta[s] / 1 000 000
 - henkilosto = suorat_htv × 100 000 € / 1 000 000 (henkilöstökulu per suora työntekijä)
@@ -120,10 +120,10 @@ Alla samat kaavat auki laskettuina tämän teeman keskimmäisellä, toteutumapai
 - rak_palkat = 40 623 × 45 000 € / 1 000 000 = 1 828,0 M€; kotim_palkkaosuus = 0,60 + 0,40 × 0,50 = 0,80
 - C_rak = 1 828,0 × 62,5 % × 0,80 = 914,0 M€; M_C_rak = 914,0 × 30 % = 274,2 M€
 - **BKT_rak = 33 000 + 914,0 − 27 500,0 − 274,2 = 6 139,8 M€ ≈ 6,1 mrd. €**
-- mw = 33 × 101,25 = 3 341 MW; sahko_mwh = 3 341 × 0,85 × 8 760 h = 24,88 TWh; sahkokulut = 24,88 TWh × 60 €/MWh = 1 492,7 M€
-- henkilosto = 2 750 × 100 000 € / 1 000 000 = 275,0 M€; opex = 1 492,7 + 275,0 = 1 767,7 M€; X = 1 767,7 × 1,07 = 1 891,5 M€
-- M_sahko = 1 492,7 × 10 % = 149,3 M€; C_kaytto = 2,750 × (84 + 100,8) × 62,5 % = 317,6 M€; M_C_kaytto = 317,6 × 30 % = 95,3 M€
-- **BKT_kaytto = 1 891,5 + 317,6 − 149,3 − 95,3 = 1 964,5 M€/v ≈ 2,0 mrd. €/v**
+- mw = 33 × 100 = 3 300 MW; sahko_mwh = 3 300 × 0,85 × 8 760 h = 24,57 TWh; sahkokulut = 24,57 TWh × 60 €/MWh = 1 474,3 M€
+- henkilosto = 2 750 × 100 000 € / 1 000 000 = 275,0 M€; opex = 1 474,3 + 275,0 = 1 749,3 M€; X = 1 749,3 × 1,07 = 1 871,8 M€
+- M_sahko = 1 474,3 × 10 % = 147,4 M€; C_kaytto = 2,750 × (84 + 100,8) × 62,5 % = 317,6 M€; M_C_kaytto = 317,6 × 30 % = 95,3 M€
+- **BKT_kaytto = 1 871,8 + 317,6 − 147,4 − 95,3 = 1 946,7 M€/v ≈ 1,9 mrd. €/v**
 
 **Verotulot, rakennusvaihe**
 - Yhteisövero = 2,750 × 42 = 115,5 M€; ALV = 2,750 × 33 = 90,8 M€
@@ -132,6 +132,6 @@ Alla samat kaavat auki laskettuina tämän teeman keskimmäisellä, toteutumapai
 - **Yhteensä = 517,1 M€ ("≈ 517 milj. €")**
 
 **Verotulot, käyttövaihe (vuodessa)**
-- Yhteisövero = 1 767,7 × 0,07 × 20 % = 24,7 M€; ALV = 2,750 × 7 = 19,2 M€; Tulovero: koko työllisyyspohja 6 050 htv/v (suorat + epäsuorat) → 2,750 × 44,22 = **121,6 M€/v**
-- Kiinteistövero = 2,750 × 1 750 × 1,25 % = 60,2 M€; Sähkövero = 24,88 TWh × 22,66 €/MWh = 563,8 M€
-- **Yhteensä = 789,5 M€/v ("≈ 0,79 mrd. €/v")**
+- Yhteisövero = 1 749,3 × 0,07 × 20 % = 24,5 M€; ALV = 2,750 × 7 = 19,2 M€; Tulovero: koko työllisyyspohja 6 050 htv/v (suorat + epäsuorat) → 2,750 × 44,22 = **121,6 M€/v**
+- Kiinteistövero = 2,750 × 1 750 × 1,25 % = 60,2 M€; Sähkövero = 24,57 TWh × 22,66 €/MWh = 556,8 M€
+- **Yhteensä = 782,3 M€/v ("≈ 0,78 mrd. €/v")**

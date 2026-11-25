@@ -13,15 +13,6 @@ Suomeen on ilmoitettu viime vuosina kymmenien miljardien eurojen datakeskusinves
 
 **Rajaus.** Teemassa ei oteta huomioon tutkimus-, kehitys- ja osaamisvaikutuksia, koska niistä ei ole luotettavaa näyttöä. Datakeskushankkeet valmistuvat usein vaiheittain, ja koko hankkeen kaikkien vaiheiden valmistuminen voi ajoittua selvästi myöhemmäksi kuin ensimmäisen vaiheen valmistuminen, jolloin rakennusvaiheen kokonaisvaikutus voi todellisuudessa jakautua tässä oletettua kaksivuotista rakennusaikaa pidemmälle ajanjaksolle. Yksinkertaistuksena on kuitenkin oletettu, että hankkeen maanrakennus- ja perustustyöt tehdään valmiiksi jo hankkeen alkuvaiheessa koko investointia – myös myöhempiä vaiheita – varten, eivätkä ne siis toistu jokaisen myöhemmän vaiheen yhteydessä.
 
-**Brutto ja netto.** Brutto tarkoittaa koko vaikutusta ennen vähennyksiä. Netto on se osa, joka jää kotimaiselle taloudelle, kun tuonti, palautukset ja muualta siirtyvä toiminta on vähennetty.
-
-| Mittari | Brutto | Netto |
-| --- | --- | --- |
-| BKT-vaikutus | Investoinnin koko (I) tai kaikki kerrannaisvaikutukset | Kotimainen arvonlisä: investointi miinus tuonti (I − M) |
-| ALV | Koko ketjussa kertyvä vero | Valtion jäljelle jäävä vero palautusten jälkeen (lähellä nollaa) |
-| Työllisyys | Kaikki hankkeen tukemat työpaikat | Uudet työpaikat, kun vähennetään muualta siirtyneet |
-| Kulutus | Kaikkien työntekijöiden palkoista syntyvä kulutus | Vain uusi kulutus, kun huomioidaan syrjäytyminen ja muualle menevät palkat |
-
 ## 2. Rakennusvaihe ja käyttöönotto
 
 Rakennusvaiheen vaikutus on kertaluonteinen ja kasautuu hankkeiden valmistumisvuosille 2027–2028. Käyttövaiheen vaikutus sen sijaan on pysyvä: se jatkuu niin kauan kuin datakeskukset ovat käytössä, mutta on vuositasolla selvästi pienempi kuin rakentamisen kertaluonteinen piikki. Dataikkunan hankkeiden valmistuminen painottuu vuosiin 2027–2028, joten rakennusvaiheen vaikutus voi heiketä nopeasti, ellei uusia hankkeita käynnisty.

@@ -29,10 +29,23 @@ siitä, kuinka paljon kotimaista lopputuotekysyntää (rakennusurakoiden
 laskutus, sähkönostot) investointi synnyttää tietyillä toimialoilla, ja
 soveltaa näihin toimialakohtaisia **tuotos-, arvonlisäys- ja
 työpanoskertoimia** Leontief-tyyppisesti: suora vaikutus (ko. toimiala) +
-epäsuora vaikutus (toimialan kotimainen hankintaketju, ns. Tyyppi I).
-Indusoitua (palkkojen kulutuksen aiheuttamaa) vaikutusta ei lasketa tässä
+epäsuora vaikutus (toimialan kotimainen hankintaketju). Indusoitua
+(palkkojen kulutuksen aiheuttamaa) vaikutusta ei lasketa tässä
 systemaattisesti mukaan, koska luotettavaa kerrointa sille ei ollut
 saatavilla (ks. luku 2).
+
+**Päivitys (arvonlisäys).** Epäsuora arvonlisäys lasketaan nyt **auki
+kirjoitettuna geometrisena sarjana** (ks. luku 4) sen sijaan, että
+käytettäisiin yhtä kirjallisuudesta poimittua "Tyyppi I -kerrointa"
+(1,3-1,8×) läpinäkymättömänä kokonaislukuna arvonlisäykselle. Uusi laskenta
+erittelee rakennusalan oman arvonlisäyksen, sen ostamien välituotteiden
+kotimaisen osuuden, ja toimitusketjun (upstream-toimialojen) oman
+arvonlisäysosuuden - ja summaa näistä syntyvän kerrannaisvaikutuksen
+äärettömänä (suppenevana) sarjana. Tämä on läpinäkyvämpi ja paremmin
+auditoitavissa, vaikka perustuukin edelleen yleisiin suuruusluokka-arvioihin
+eikä Suomen virallisiin toimialakertoimiin. **Työllisyyden** laskennassa
+käytetään toistaiseksi edelleen yksinkertaisempaa Tyyppi I -kerrointa
+(1,3-1,8×) - sitä ei ole tässä päivityksessä muutettu.
 
 Huomaa myös käsite-ero: panos-tuotos-malli tuottaa **arvonlisäyksen**
 (tuotantolähestymistapa), pääasiakirja **BKT:n menoerittelyllä**. Nämä ovat
@@ -70,13 +83,15 @@ merkitty alla:
 | Muuttuja | Arvo | Status | Huomio |
 |---|---|---|---|
 | Rakennusalan (TOL F) suora työpanoskerroin | 4 230 htv / mrd. € tuotosta (2022) | **[PT-lähde]** Tilastokeskus 14yn/14yq - sama luku on jo aiemmin viitattu pääasiakirjan R-mallissa | Koko toimialan keskiarvo; ei datakeskusrakentamiselle räätälöity |
-| Rakentamisen Tyyppi I -kerroin (suora+epäsuora/suora) | 1,3-1,8 | **[PT-oletus]** | Pienen avotalouden (Suomi) rakennusalan tyypillinen vaihteluväli kansainvälisessä kirjallisuudessa; tuontivaltaiset panokset (koneet, osa materiaaleista) rajoittavat kotimaista kerrannaisvaikutusta |
-| Rakentamisen arvonlisäysosuus tuotoksesta | 35-42 % (piste 38 %) | **[PT-oletus]** | Yleisesti tunnettu suuruusluokka rakennusalalle |
-| Toimintaylijäämän (voiton) osuus arvonlisäyksestä, rakentaminen | 27 % | **[PT-oletus]** | Käytetty yhteisöveron arviointiin |
+| Rakentamisen Tyyppi I -kerroin (suora+epäsuora/suora), **vain työllisyydelle** | 1,3-1,8 | **[PT-oletus]** | Pienen avotalouden (Suomi) rakennusalan tyypillinen vaihteluväli kansainvälisessä kirjallisuudessa; tuontivaltaiset panokset (koneet, osa materiaaleista) rajoittavat kotimaista kerrannaisvaikutusta. Arvonlisäykselle ei enää käytetä tätä kerrointa, ks. seuraavat kaksi riviä ja luku 4 |
+| Rakentamisen (va0) arvonlisäysosuus tuotoksesta | 35-42 % (piste 38 %) | **[PT-oletus]** | Yleisesti tunnettu suuruusluokka rakennusalalle. Loppuosa (58-65 %) menee välituoteostoihin (materiaalit, konevuokraus, alihankinta, suunnittelu) |
+| Toimitusketjun (upstream-toimialojen, va1) arvonlisäysosuus tuotoksesta | 25-35 % (piste 30 %) | **[PT-oletus]** | Rakennusalan välituotteiden toimittajien (betoni, teräs, konevuokraus = matalampi VA-osuus; suunnittelu, logistiikka = korkeampi) arvioitu keskiarvo. Ei vahvistettu Suomen toimialakohtaisista taulukoista |
+| Toimintaylijäämän (voiton) osuus arvonlisäyksestä, rakentaminen | 27 % | **[PT-oletus]** | Käytetty yhteisöveron arviointiin (koskee koko arvonlisäystä, suora+epäsuora) |
 | Sähkötoimialan (D) suora työpanoskerroin | 300-600 htv / mrd. € tuotosta | **[PT-oletus]** | Pääomavaltainen toimiala; ei vahvistettu tarkkaa Suomen lukua |
 | Keskipalkka, tulovero/työntekijä | 45 000 €/v, 10 286,89 €/työntekijä | **[M/O]** peritty pääasiakirjan mallista (2026 veroasteikko) | Käytetty sellaisenaan vertailukelpoisuuden vuoksi |
 | Suomalaisten/kotimaisten työntekijöiden osuus | 60 % (keskim.) | **[M]** peritty pääasiakirjan mallista | - |
-| Kotimainen osuus investoinnista, tuontisisältö | 2 500/12 000 ≈ 20,8 %; 20 % | **[M]** peritty pääasiakirjan mallista | Sama lähtökohta kuin pääasiakirjassa |
+| Kotimainen osuus investoinnista, tuontisisältö (d) | 2 500/12 000 ≈ 20,8 %; 20 % | **[M]** peritty pääasiakirjan mallista | Sama lähtökohta kuin pääasiakirjassa. d = 1 - 20 % = 80 % kotimaisten välituoteostojen osuudeksi - oletettu samaksi jokaisella toimitusketjun kierroksella (yksinkertaistus) |
+| ALV:n osuus palkkojen kulutuksesta, joka on ALV:llista | 70 % | **[PT-oletus]** | Karkea oletus: osa kulutuksesta on ALV-vapaata tai yritysten välistä, vähennyskelpoista. Ei ollut aiemmin tässä taulukossa, vaikka sitä käytettiin luvun 4 laskennassa |
 
 Kiinteistövero jätetään kokonaan pois panos-tuotos-laskelmasta: se riippuu
 rakennusten verotusarvosta, joka ei ole toimialakertoimilla johdettavissa
@@ -93,16 +108,40 @@ Kotimainen rakennusurakoiden laskutus = 33 mrd. € × 20,8 % ≈ **6 875 milj. 
 4 230 htv/mrd. € ≈ **29 100 htv**. Tyyppi I -kokonaisvaikutus (kerroin
 1,3-1,8): **37 800-52 300 htv**.
 
-**Arvonlisäys.** Suora: 6 875 milj. € × 38 % ≈ **2 610 milj. €**. Tyyppi I
--kokonaisvaikutus: **3 130-5 200 milj. €**.
+**Arvonlisäys.** Lasketaan nyt auki kirjoitettuna, kaksivaiheisena
+laskelmana, joka huomioi myös rakennusalan ostamien **välituotteiden**
+(materiaalit, konevuokraus, alihankinta) kautta syntyvän arvonlisäyksen
+toimitusketjun aiemmilla kierroksilla - ei enää yhtenä kirjallisuudesta
+poimittuna kokonaiskertoimena:
+
+1. **Suora arvonlisäys** (rakennusalan oma palkka+voitto): 6 875 milj. € ×
+   va0 (35-42 %) = **2 406-2 888 milj. €**
+2. **Välituoteostot** (loppuosa laskutuksesta, joka menee materiaaleihin ja
+   alihankintaan): 6 875 × (1 − va0) = 3 987-4 469 milj. €, josta kotimaisia
+   (d = 80 %): 3 190-3 575 milj. €
+3. **Epäsuora arvonlisäys** (toimitusketjun oma palkka+voitto, summattuna
+   äärettömänä geometrisena sarjana toistuvien kierrosten yli, suhdeluvulla
+   q = (1 − va1) × d): kotimaiset välituoteostot × va1 / (1 − q) =
+   **2 234-2 326 milj. €**
+4. **Yhteensä: 2 406 + 2 234 = 4 641 milj. € ... 2 888 + 2 326 = 5 214
+   milj. €, eli n. 4 640-5 210 milj. €**
+
+(Vanha, pelkkään Tyyppi I -kertoimeen 1,3-1,8× perustunut arvio oli
+3 130-5 200 milj. € - uusi laskelma antaa kapeamman ja etenkin alarajaltaan
+korkeamman haarukan, koska se tunnistaa eksplisiittisesti, että myös
+toimitusketjun ensimmäisen kierroksen alihankkijat tuottavat arvonlisäystä,
+sen sijaan että luottaisi yhteen yleiseen kirjallisuuskertoimeen.)
 
 **Verotulot** (ei sisällä kiinteistöveroa):
 - Tulovero (koko Tyyppi I -työllisyydelle, 60 % kotimaisia, 10 286,89
-  €/työntekijä): **233-323 milj. €**
-- Yhteisövero (27 % arvonlisäyksestä voittona, 20 % yhteisöverokanta):
-  **169-281 milj. €**
+  €/työntekijä): **233-323 milj. €** (ei muuttunut - ei riipu
+  arvonlisäyksestä)
+- Yhteisövero (27 % arvonlisäyksestä voittona, 20 % yhteisöverokanta,
+  uudella arvonlisäysluvulla): 4 640×0,27×0,20 ... 5 210×0,27×0,20 =
+  **251-281 milj. €**
 - Arvonlisävero (karkea arvio palkkojen kulutusosasta): **107-148 milj. €**
-- **Yhteensä: n. 509-752 milj. €**
+  (ei muuttunut - ei riipu arvonlisäyksestä)
+- **Yhteensä: n. 591-753 milj. €**
 
 ### Vertailu pääasiakirjaan
 
@@ -110,8 +149,8 @@ Kotimainen rakennusurakoiden laskutus = 33 mrd. € × 20,8 % ≈ **6 875 milj. 
 |---|---|---|
 | Työllisyys (kok.) | 40 600 htv | 37 800-52 300 htv |
 | joista kotimaisia/verotettavia | 18 400 (suorat) | 22 700-31 400 (60 % Tyyppi I:stä) |
-| Arvonlisäys/BKT-vaikutus | 6 140 milj. € (BKT, menoerittely) | 3 130-5 200 milj. € (arvonlisäys, tuotantolähestymistapa - eri käsite, ks. luku 1) |
-| Verotulot (ilman kiinteistöveroa) | 456,9 milj. € | 509-752 milj. € |
+| Arvonlisäys/BKT-vaikutus | 6 140 milj. € (BKT, menoerittely) | 4 640-5 210 milj. € (arvonlisäys, tuotantolähestymistapa, välituotteiden arvonlisäys mukaan lukien - eri käsite, ks. luku 1) |
+| Verotulot (ilman kiinteistöveroa) | 456,9 milj. € | 591-753 milj. € |
 
 **Havainto.** Kokonaistyöllisyysarvio on samaa suuruusluokkaa molemmilla
 menetelmillä - panos-tuotos-haarukka asettuu pääasiakirjan luvun (40 600)
@@ -119,9 +158,23 @@ molemmin puolin. Pääasiakirja on sittemmin päivitetty laskemaan tuloveron
 koko työllisyyspohjalta (suorat + aliurakoitsijaketjun epäsuorat
 työntekijät) tämän muistion alkuperäisen havainnon pohjalta - ks. yllä oleva
 päivityshuomautus. Tämän jälkeen pääasiakirjan verotuloarvio (456,9 milj. €)
-asettuu lähelle panos-tuotos-haarukan alarajaa (509-752 milj. €), eli
+jää hieman panos-tuotos-haarukan (591-753 milj. €) alapuolelle, eli
 menetelmät tukevat nyt toisiaan huomattavasti paremmin kuin ennen
-päivitystä (jolloin pääasiakirjan luku oli vain 320 milj. €).
+päivitystä (jolloin pääasiakirjan luku oli vain 320 milj. €), vaikkakaan
+eivät enää osu yhtä tarkasti yksiin kuin ennen arvonlisäyksen
+välituotelaskennan päivitystä (ks. yllä, luku 4).
+
+Sen sijaan **arvonlisäys-rivillä pääasiakirjan luku (6 140 milj. €) on
+edelleen selvästi korkeampi** kuin panos-tuotos-mallin päivitetty arvio
+(4 640-5 210 milj. €) - myös sen jälkeen, kun panos-tuotos-malli nyt
+huomioi eksplisiittisesti myös toimitusketjun (välituotteiden) tuottaman
+arvonlisäyksen. Tämä viittaa siihen, että ero ei ole (enää) siitä, että
+panos-tuotos-malli unohtaisi epäsuoran arvonlisäyksen, vaan siitä, että
+pääasiakirjan oma BKT-laskenta (I - M_inv, eli investoinnista vähennetään
+vain tuonti) vastaa löyhempää arvonlisäyksen käsitettä kuin kansantalouden
+tilinpidon virallinen tuotos miinus välituotekäyttö -määritelmä, jota
+panos-tuotos-malli noudattaa tarkemmin. Pääasiakirjan 6 140 milj. €:n luku
+saattaa siis yliarvioida rakennusvaiheen BKT-vaikutuksen lievästi.
 
 ## 5. Käyttövaihe (vuodessa, 33 mrd. €, keskimmäinen skenaario)
 
@@ -169,14 +222,26 @@ arvioon (378,1 milj. €/v) nähden.
   pääasiakirjan aiempi "vain suorat työntekijät" -rajaus tuloverossa saattoi
   aliarvioida todellista verokertymää, on johtanut pääasiakirjan ja teeman
   päivittämiseen - tulovero lasketaan nyt koko työllisyyspohjalta. Luvut
-  ovat tämän jälkeen huomattavasti lähempänä toisiaan.
+  ovat tämän jälkeen huomattavasti lähempänä toisiaan (456,9 vs.
+  591-753 milj. €).
+- **Rakennusvaiheen arvonlisäys**: tämän, nyt välituotteiden arvonlisäyksen
+  huomioivan laskelman (4 640-5 210 milj. €) jälkeenkin pääasiakirjan oma
+  luku (6 140 milj. €) on selvästi korkeampi. Tämä viittaa siihen, että
+  pääasiakirjan BKT-laskentatapa (investoinnista vähennetään vain tuonti,
+  ei kotimaisten välituotteiden käyttöä) vastaa löyhempää arvonlisäyksen
+  käsitettä kuin kansantalouden tilinpidon virallinen määritelmä - ei
+  siihen, että panos-tuotos-malli unohtaisi jonkin kerrannaisvaikutuksen.
 - **Käyttövaiheen työllisyys**: menetelmät eivät ole suoraan vertailukelpoisia,
   koska panos-tuotos-laskelma kattaa vain sähkön toimitusketjun, ei koko
   Deloitte-kertoimen laajuutta.
 - Kaikki panos-tuotos-luvut ovat **suuntaa-antavia**: suurin osa kertoimista
-  (Tyyppi I -kerroin, arvonlisäysosuus, toimintaylijäämäosuus, sähkötoimialan
-  työpanoskerroin) on yleisiä kirjallisuusarvioita, ei Suomi/toimiala-
-  kohtaisesti vahvistettuja virallisista taulukoista tämän istunnon aikana.
+  (työllisyyden Tyyppi I -kerroin, arvonlisäysosuudet va0/va1,
+  toimintaylijäämäosuus, sähkötoimialan työpanoskerroin) on yleisiä
+  kirjallisuusarvioita, ei Suomi/toimiala-kohtaisesti vahvistettuja
+  virallisista taulukoista tämän istunnon aikana. Arvonlisäyksen laskenta
+  on päivitetty läpinäkyvämmäksi (auki kirjoitettu geometrinen sarja
+  yhden kirjallisuuskertoimen sijaan, ks. luku 4), mutta työllisyyden
+  laskenta käyttää vielä vanhaa, yksinkertaisempaa Tyyppi I -kerrointa.
 
 ## 7. Mitä tarkempi laskelma vaatisi
 
@@ -194,3 +259,10 @@ arvioon (378,1 milj. €/v) nähden.
    yhteismitallinen pääasiakirjan Deloitte-kertoimen kanssa.
 5. Kiinteistövero ja sähkövero jäävät joka tapauksessa panos-tuotos-mallin
    ulkopuolelle - ne on laskettava pääasiakirjan tapaan erikseen.
+6. Työllisyyden laskenta käyttää vielä yhtä, yksinkertaista Tyyppi I
+   -kerrointa (1,3-1,8×) eikä samaa auki kirjoitettua, välituotteiden kautta
+   etenevää geometrista laskentaa kuin arvonlisäys (ks. luku 4) - tämä voisi
+   tehdä myös työllisyysarviosta läpinäkyvämmän, joskin vaatisi oman
+   oletuksen toimitusketjun työpanoskertoimelle (joka voi poiketa
+   rakennusalan omasta, esim. koneellisempi/pääomavaltaisempi tuotanto
+   materiaaliteollisuudessa).

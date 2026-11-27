@@ -1,6 +1,6 @@
 # Datakeskusinvestointien kansantaloudelliset vaikutukset
 
-Suomeen on viime vuosina ilmoitettu kymmenien miljardien eurojen datakeskusinvestoinnit, mutta niiden vaikutus bruttokansantuotteeseen jää selvästi investoinnin kokoa pienemmäksi. Kansainvälisten selvitysten mukaan noin 70–80 % investoinnista kuluu ulkomailta tuotuun IT-laitteistoon, joten Suomen arvonlisäykseen kirjautuu vain kotimaisen työn osuus, käytännössä rakennus-, asennus- ja suunnittelutyö. Rakentamisen vaikutus on kertaluonteinen, ja käyttövaiheessa syntyy vain vähän suoria työpaikkoja. Myös kerrannais- ja syrjäytymisvaikutusten arviointi on hankalaa: kerrannaisvaikutukset ovat bruttolukuja, joista osa syrjäyttää muuta taloudellista toimintaa, joten nettovaikutus jää usein esitettyjä arvioita pienemmäksi.
+Suomeen on viime vuosina ilmoitettu kymmenien miljardien eurojen datakeskusinvestoinnit, mutta niiden vaikutuksen bruttokansantuotteeseen arvioidaan jäävän selvästi investoinnin kokoa pienemmäksi. Kansainvälisten selvitysten mukaan noin 70–80 % investoinnista kuluu ulkomailta tuotuun IT-laitteistoon, joten Suomen arvonlisäykseen kirjautuu vain kotimaisen työn osuus, käytännössä rakennus-, asennus- ja suunnittelutyö. Rakentamisen vaikutus on kertaluonteinen, ja käyttövaiheessa syntyy vain vähän suoria työpaikkoja. Myös kerrannais- ja syrjäytymisvaikutusten arviointi on hankalaa: kerrannaisvaikutukset ovat bruttolukuja, joista osa syrjäyttää muuta taloudellista toimintaa, joten nettovaikutus jää usein esitettyjä arvioita pienemmäksi.
 
 ## 1. Lähtökohta ja rajaus
 

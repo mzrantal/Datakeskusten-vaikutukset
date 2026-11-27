@@ -38,17 +38,13 @@ Rakennusvaiheen vaikutus on kertaluonteinen ja kasautuu hankkeiden valmistumisvu
 
 ¹ Tulovero on laskettu koko työllisyyspohjalta (sekä suorista työntekijöistä että epäsuorista, aliurakoitsijaketjun työntekijöistä) samalla keskipalkka- ja Suomessa-verotettu-osuus-oletuksella molemmille ryhmille. Tämä on yksinkertaistava oletus: jos aliurakoitsijaketjun palkkataso tai Suomessa-verovelvollisuuden osuus poikkeaa suorista työntekijöistä, verotulo poikkeaa tästä arviosta.
 
-## 3. Vaikutus muuhun rakentamiseen: sähköverkot
+## 3. Sähköverkko ja kerrannaisvaikutukset
 
-Datakeskukset lisäävät sekä sähkönkulutusta että kantaverkkoinvestointeja. Fingrid suunnittelee investoivansa kantaverkkoon noin 5,2 mrd. € vuoteen 2035 mennessä (noin 2,0 mrd. € vuosina 2025–2028), mutta suunnitelma ei erittele investointeja asiakastyypeittäin, joten datakeskusten osuutta siitä ei voi lukea suoraan. Noin puolet kaikista sähkön liityntäkyselyistä (yhteensä noin 70 GW) liittyy datakeskuksiin, ja Fingridin arvion mukaan niistä toteutuu realistisesti noin kymmenesosa, eli noin 5 GW:n lisäys kulutukseen.
+Datakeskukset lisäävät sekä sähkönkulutusta että kantaverkkoinvestointeja. Fingrid suunnittelee investoivansa kantaverkkoon noin 5,2 mrd. € vuoteen 2035 mennessä (noin 2,0 mrd. € vuosina 2025–2028), mutta suunnitelma ei erittele investointeja asiakastyypeittäin. Kaikista sähkön liityntäkyselyistä (yhteensä noin 70 GW) noin puolet liittyy datakeskuksiin, joista Fingridin arvion mukaan toteutuu realistisesti noin kymmenesosa, eli noin 5 GW:n lisäys kulutukseen. Kasvava kulutus edellyttää myös uutta, osin tuulivoimalla katettavaa tuotantokapasiteettia; nämä investoinnit jäävät kuitenkin teeman ulkopuolelle, koska niitä ei voi luotettavasti erottaa muusta tuulivoimarakentamisesta eikä laskea yhteen datakeskusten pääomamenojen kanssa kaksoislaskentaa aiheuttamatta.
 
-Datakeskusten kasvava sähkönkulutus edellyttää myös uutta tuotantokapasiteettia. Merkittävä osa siitä rakennetaan Suomeen tuulivoimana, osin suoraan datakeskusyhtiöiden pitkäaikaisten sähkönostosopimusten (PPA) turvin. Teemassa ei kuitenkaan oteta tuulivoimainvestointeja tarkasteluun, koska niitä ei voi luotettavasti erottaa muusta, datakeskuksista riippumattomasta tuulivoimarakentamisesta, eikä niitä voi laskea yhteen datakeskusten omien pääomamenojen kanssa ilman kaksoislaskentaa: osa yhtiöiden (esimerkiksi Googlen) ilmoittamista investointisummista sisältää jo omia energiahankkeitaan.
+Laskelma huomioi kerrannaisvaikutuksena vain palkoista syntyvän kulutuksen, ei laajempia toimittajaketjun vaikutuksia, joiden suuruudesta ei ole luotettavaa tietoa. Syrjäyttämistä voi syntyä työvoiman, sähköverkon kapasiteetin ja sähkön hinnan kautta. Rakennusalan heikko tilanne vähentää työvoiman syrjäytymisriskiä, mutta Etelä-Suomen liityntärajoitukset (poistuvat asteittain 2027–2029) rajoittavat samalla muita sähkön suurkuluttajia. **\[TÄYDENNETTÄVÄ: sähkön hinta ja kotitalouksien ostovoima.\]**
 
-## 4. Kerrannais- ja syrjäyttämisvaikutukset
-
-Laskelma ottaa kerrannaisvaikutuksena huomioon vain palkoista syntyvän kulutuksen, ei laajempia toimittajaketjun vaikutuksia, joiden suuruudesta ei ole luotettavaa tietoa. Syrjäyttämistä voi syntyä kolmen kanavan kautta: työvoiman, sähköverkon kapasiteetin ja sähkön hinnan. Rakennusalan heikko tilanne vähentää työvoiman syrjäytymisriskiä, mutta Etelä-Suomen liityntärajoitukset (poistuvat asteittain vuosina 2027–2029) rajoittavat samalla muita sähkön suurkuluttajia. **\[TÄYDENNETTÄVÄ: sähkön hinta ja kotitalouksien ostovoima.\]**
-
-## 5. Yhteenveto
+## 4. Yhteenveto
 
 Datakeskusinvestoinneista vain osa näkyy Suomen BKT:ssä: karkeasti joka viides investoitu euro jää kotimaiseen rakennus- ja asennustyöhön sekä työntekijöiden kulutukseen, kun taas loput kuluvat ulkomailta tuotuihin IT-laitteisiin. Vuosina 2027–2028 valmistuvien hankkeiden rakentaminen kasvattaisi Suomen bruttokansantuotetta yhteensä noin 6,1 mrd. € (vaihteluväli 3,3–7,8 mrd. €), eli keskimäärin noin 3 mrd. € vuodessa.
 

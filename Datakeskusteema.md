@@ -1,5 +1,7 @@
 # Datakeskusinvestointien kansantaloudelliset vaikutukset
 
+**Huomio.** Tämä teema ei ole osa Taloudellisen katsauksen varsinaista ennustetta, vaan erillinen skenaariotarkastelu. Siihen liittyy merkittävää epävarmuutta sekä hankkeiden toteutumisesta että niiden ajoituksesta.
+
 Suomeen on viime vuosina suunniteltu kymmenien miljardien eurojen edestä datakeskusinvestointeja. Vaikka summat ovat mittavia, niiden suora vaikutus bruttokansantuotteeseen näyttää kuitenkin jäävän investointien nimellisarvoa selvästi maltillisemmaksi. Kansainvälisten selvitysten mukaan noin 70–80 % investoinnista on tuontia sisältäen valtaosin IT-laitteistoa, joten Suomen arvonlisäykseen kirjautuu vain kotimaisen työn osuus, käytännössä rakennus-, asennus- ja suunnittelutyö. Rakentamisen vaikutus on kertaluonteinen, ja käyttövaiheessa syntyy vain vähän suoria työpaikkoja. 
 
 **Mitä mitataan.** Teemassa arvioidaan datakeskusinvestointien vaikutusta Suomen talouteen kolmella mittarilla: arvonlisäyksellä (vastaa BKT-vaikutusta), työllisyydellä ja julkisen talouden verotuloilla. Vaikutukset esitetään nettona eli kotimaiselle taloudelle jäävänä osuutena.

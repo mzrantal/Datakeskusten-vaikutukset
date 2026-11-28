@@ -54,6 +54,16 @@ Rakennusvaiheen vaikutus on kertaluonteinen ja keskittyy muutamalle vuodelle han
 
 Suurin yksittäinen epävarmuus koskee sitä, kuinka suuri osa ilmoitetuista hankkeista lopulta toteutuu: tässä esitetyt luvut perustuvat jo karkeaan toteutumapainotukseen, jossa vain osa suunnitteilla olevista hankkeista oletetaan etenevän. Myös hankkeiden tarkka ajoitus ja mahdollinen syrjäytyminen muusta taloudesta (työvoimasta ja sähköverkon kapasiteetista) jäävät arvioiden varaan.
 
+## Lähteet
+
+- VTT, Datakeskusteollisuus ry:lle tehty selvitys *Datakeskusteollisuus tänään, vaikutuksia ja mittareita* (julkaistu 28.10.2026).
+- Ramboll / FDCA (Finnish Data Center Association), *Finnish Data Center Market Study and Impact Assessment* (2025).
+- Dataikkuna (Elinkeinoelämän keskusliitto EK), Suomeen ilmoitettujen datakeskushankkeiden aineisto.
+- Google, omat investointi- ja työllisyysilmoitukset (syyskuu 2026) sekä yhtiön tilaama Deloitte-selvitys Haminan laajennuksesta (2024).
+- Fingrid, kantaverkon kehittämissuunnitelma vuoteen 2035 ja sähkön liityntäkyselytilastot.
+- Tilastokeskus, Palkkarakenne 2024 (rakennusalan ansiotaso) sekä kansantalouden tilinpidon toimialakohtainen työpanoskerroin.
+- Rakennusalan työehtosopimus 2025–2028, yleiskorotukset.
+
 ## Liite: Laskentakaavat
 
 **Merkinnät:** *inv* = investointi (mrd. €), *s* = skenaario (alhainen/keskimääräinen/korkea), *k* = *inv* / 12 (skaalauskerroin muistion 12 mrd. €:n peruslukuihin).

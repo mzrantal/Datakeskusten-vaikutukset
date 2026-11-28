@@ -66,8 +66,16 @@ P <- list(
   # prosessiteollisuuden tehdashankkeet. Yhtiön oma projektioluku, ei
   # auditoitu lopputulos. [O, Google 9/2026]
   rak_htv_per_mrd       = c(1231, 1231, 1231),
-  # Keskipalkka rakennusvaiheessa, € / htv [M]
-  rak_keskipalkka       = c(45000, 45000, 45000),
+  # Keskipalkka rakennusvaiheessa, € / htv. Aiempi 45 000 €:n luku oli
+  # paaasiakirjan kirjoittajan oma, dokumentoimaton arvaus - ei Rambollin
+  # ilmoittama eika Tilastokeskukseen pohjautuva. Korvattu Tilastokeskuksen
+  # Palkkarakenne 2024:n rakennusalan (TOL F) mediaaniansiolla (3 764 e/kk,
+  # noin 45 170 e/v), korotettuna rakennusalan tyoehtosopimuksen 2025-2028
+  # yleiskorotuksilla (+2,5 % 9/2025, +2,9 % 6/2026, +2,4 % 6/2027, lisaksi
+  # oma yleistys +2,5 % vuodelle 2028, koska sopimus ei yla kata sita)
+  # vuosien 2027-2028 keskitasolle, pyoristettyna tasalukuun. [O, Tilastokeskus
+  # + TES-korotukset]
+  rak_keskipalkka       = c(50000, 50000, 50000),
   # Suomessa asuvien työntekijöiden osuus [M, Hukkanen & Syväkuru]
   suomalaisten_osuus    = c(0.50, 0.60, 0.70),
   # Ulkomailla asuvan (ei-Suomessa-asuvan) rakennustyöntekijän Suomeen
@@ -91,15 +99,16 @@ P <- list(
   # htv, 1/2,2 Deloitte-suhteella): aliurakoitsijaketjun tyontekijat ovat
   # todennakoisesti my os Suomessa verovelvollisia, joten my os heidan
   # tulonsa on perusteltua laskea tuloverokertymaan mukaan. Keskipalkka
-  # 45 000 e (sama oletus kaikille, myos epasuorille - yksinkertaistava
-  # oletus), verotettava tulo = 91,8 % brutosta - 750 e = 40 560 e/tyontekija,
-  # vuoden 2026 valtion tuloveroasteikolla (40 100-52 100 e: 33,25 %, alaraja
-  # 7 063,55 e) 7 216,50 e + kunnallisvero 7,57 % x 40 560 e = 3 070,39 e,
-  # yhteensa 10 286,89 e/tyontekija (100 % Suomessa verotettuna), kerrottuna
-  # suomalaisten_osuus-skenaariolla. Rambollin alkuperainen 45 000 htv:n
-  # kokonaismaaraan perustunut luku oli virheellinen eri syysta (vaarasta
-  # tyollisyyspohjasta), ks. git-historia. [O, uudelleenlaskettu]
-  rak_tulovero_12       = c(75.98, 91.17, 106.37), # valtio + kunnat [O]
+  # 50 000 e (sama oletus kaikille, myos epasuorille - yksinkertaistava
+  # oletus, ks. rak_keskipalkka), verotettava tulo = 91,8 % brutosta - 750 e
+  # = 45 150 e/tyontekija, vuoden 2026 valtion tuloveroasteikolla
+  # (40 100-52 100 e: 33,25 %, alaraja 7 063,55 e) 8 742,68 e + kunnallisvero
+  # 7,57 % x 45 150 e = 3 417,86 e, yhteensa 12 160,53 e/tyontekija (100 %
+  # Suomessa verotettuna), kerrottuna suomalaisten_osuus-skenaariolla.
+  # Rambollin alkuperainen 45 000 htv:n kokonaismaaraan perustunut luku oli
+  # virheellinen eri syysta (vaarasta tyollisyyspohjasta), ks. git-historia.
+  # [O, uudelleenlaskettu]
+  rak_tulovero_12       = c(89.82, 107.78, 125.74), # valtio + kunnat [O]
   rak_tulovero_valtio   = c(0.7015, 0.7015, 0.7015), # valtion osuus tuloverosta [O]
   # Rakennusaikainen kiinteistövero = osuus käyttövaiheen vuosiverosta [M]
   rak_kiinteistovero_os = 0.5,

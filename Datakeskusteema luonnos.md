@@ -23,18 +23,18 @@ Yhden miljardin euron datakeskusinvestointi (IT-laitteet mukaan lukien) vastaa k
 
 Datakeskusten rakennusvaiheen talousvaikutukset ovat kertaluonteisia ja painottuvat hankkeiden valmistumisvuosiin 2027–2028. Käyttövaiheen talousvaikutus on sen sijaan pysyvä ja jatkuu niin kauan kuin datakeskukset ovat toiminnassa, mutta vuositasolla se on selvästi pienempi kuin rakentamisen aikainen noste. Rakennusvaiheen päätyttyä sen taloutta kasvattava vaikutus hiipuu, ellei uusia datakeskuksia aleta rakentaa.
 
-**Rakennusvaihe.** 33 miljardin euron datakeskusinvestointien työllisyysvaikutus koko rakennusajalta on yhteensä noin 40 600 henkilötyövuotta (vaihteluväli 38 200–44 300), joista suoria rakennus- ja asennustyöpaikkoja on noin 18 400. Verotuloja (yhteisö-, arvonlisä-, tulo- ja kiinteistövero yhteensä) kertyy rakennusajalta noin 517 miljoonaa euroa (vaihteluväli 359–712 milj. €), ja arvonlisäys eli BKT-vaikutus on noin 6,1 miljardia euroa (vaihteluväli 3,3–7,8 mrd. €).
+**Rakennusvaihe.** 33 miljardin euron datakeskusinvestointien työllisyysvaikutus koko rakennusajalta on yhteensä noin 40 600 henkilötyövuotta (vaihteluväli 38 200–44 300), joista suoria rakennus- ja asennustyöpaikkoja on noin 18 400. Verotuloja (yhteisö-, arvonlisä-, tulo- ja kiinteistövero yhteensä) kertyy rakennusajalta noin 563 miljoonaa euroa (vaihteluväli 395–770 milj. €), ja arvonlisäys eli BKT-vaikutus on noin 6,2 miljardia euroa (vaihteluväli 3,4–7,9 mrd. €).
 
 **Käyttövaihe.** Datakeskukset työllistävät suoraan vain vähän henkilöstöä (aineiston mediaani on 0,76 pysyvää työpaikkaa megawattia kohti), ja suurin osa käyttökustannuksista muodostuu sähköstä. Valmiina ollessaan 33 miljardin euron investoinnit toisivat vuosittain toistuvan työllisyyslisäyksen, yhteensä noin 6 000 henkilötyövuotta (vaihteluväli 2 800–9 900), josta datakeskusten omaa suoraa ylläpito- ja käyttöhenkilöstöä on noin 2 750 henkilötyövuotta. Verotuloja (samat erät kuin rakennusvaiheessa sekä lisäksi sähkövero) kertyisi vuosittain noin 378 miljoonaa euroa (vaihteluväli 243–562 milj. €), ja arvonlisäys kasvaisi noin 0,95 miljardilla eurolla vuodessa (vaihteluväli 0,59–1,39 mrd. €).
 
 | Netto | Rakennusvaihe 2027–2028 (kumulatiivinen) | Käyttövaihe (vuosittain) |
 | --- | --- | --- |
-| Arvonlisäys (BKT-vaikutus) | noin 6,1 mrd. € (3,3–7,8) | noin 0,95 mrd. €/v (0,59–1,39) |
+| Arvonlisäys (BKT-vaikutus) | noin 6,2 mrd. € (3,4–7,9) | noin 0,95 mrd. €/v (0,59–1,39) |
 | Työllisyys | noin 40 600 htv (38 200–44 300), josta suoria n. 18 400 | noin 6 000 htv/v (2 800–9 900), josta suoria n. 2 750 |
-| Verotulot yhteensä | noin 517 milj. € (359–712) | noin 378 milj. €/v (243–562) |
+| Verotulot yhteensä | noin 563 milj. € (395–770) | noin 378 milj. €/v (243–562) |
 | &nbsp;&nbsp;– Yhteisövero | noin 116 milj. € (65–180) | noin 10 milj. €/v (5–17) |
 | &nbsp;&nbsp;– Arvonlisävero (netto) | noin 91 milj. € (52–135) | noin 19 milj. €/v (8–33) |
-| &nbsp;&nbsp;– Tulovero¹ | noin 251 milj. € (196–319) | noin 122 milj. €/v (46–241) |
+| &nbsp;&nbsp;– Tulovero¹ | noin 296 milj. € (232–377) | noin 122 milj. €/v (46–241) |
 | &nbsp;&nbsp;– Kiinteistövero | noin 60 milj. € (47–78) | noin 60 milj. €/v (47–78) |
 | &nbsp;&nbsp;– Sähkövero | – | noin 167 milj. €/v (139–193) |
 
@@ -48,7 +48,7 @@ Laskelma huomioi kerrannaisvaikutuksena vain palkoista syntyvän kulutuksen, ei 
 
 ## 4. Yhteenveto
 
-Datakeskusinvestoinneista vain osa näkyy Suomen BKT:ssä: karkeasti joka viides investoitu euro jää kotimaiseen rakennus- ja asennustyöhön sekä työntekijöiden kulutukseen, kun taas loput kuluvat ulkomailta tuotuihin IT-laitteisiin. Vuosina 2027–2028 valmistuvien hankkeiden rakentaminen kasvattaisi Suomen bruttokansantuotetta yhteensä noin 6,1 mrd. € (vaihteluväli 3,3–7,8 mrd. €), eli keskimäärin noin 3 mrd. € vuodessa.
+Datakeskusinvestoinneista vain osa näkyy Suomen BKT:ssä: karkeasti joka viides investoitu euro jää kotimaiseen rakennus- ja asennustyöhön sekä työntekijöiden kulutukseen, kun taas loput kuluvat ulkomailta tuotuihin IT-laitteisiin. Vuosina 2027–2028 valmistuvien hankkeiden rakentaminen kasvattaisi Suomen bruttokansantuotetta yhteensä noin 6,2 mrd. € (vaihteluväli 3,4–7,9 mrd. €), eli keskimäärin noin 3 mrd. € vuodessa.
 
 Rakennusvaiheen vaikutus on kertaluonteinen ja keskittyy muutamalle vuodelle hankkeiden valmistuessa. Käyttövaiheen vaikutus on sen sijaan pysyvä mutta selvästi pienempi ja työllisyydeltään vähäinen, sillä käynnissä oleva datakeskus tarvitsee vain vähän omaa henkilöstöä. Jos uusia hankkeita ei käynnisty tasaiseen tahtiin, rakentamisen tuoma piikki BKT:ssa ja työllisyydessä voi hiipua nopeasti.
 
@@ -72,7 +72,7 @@ Suurin yksittäinen epävarmuus koskee sitä, kuinka suuri osa ilmoitetuista han
 - I = *inv* × 1 000 (investointi, M€)
 - kotim = I × kotimainen_osuus[s] (12 / 20,8 / 23 %) — kotimaisen toimitusketjun laskutusosuus
 - M_inv = (I − kotim) + kotim × kotim_tuontisisalto[s] — tuonti (IT-laitteet + kotimaisten urakoiden tuontisisältö)
-- rak_palkat = rak_htv × 45 000 € / 1 000 000 (keskipalkka)
+- rak_palkat = rak_htv × 50 000 € / 1 000 000 (keskipalkka)
 - kotim_palkkaosuus = suomalaisten_osuus[s] + (1 − suomalaisten_osuus[s]) × ulkom_kulutussuhde[s] (0,5/0,6/0,7 ja 0,5)
 - C_rak = rak_palkat × kulutusosuus[s] × kotim_palkkaosuus — palkoista syntyvä kotimainen kulutus
 - M_C_rak = C_rak × kulutus_tuontisisalto[s] (30 %) — kulutuksen tuontisisältö
@@ -119,9 +119,9 @@ Alla samat kaavat auki laskettuina tämän teeman keskimmäisellä, toteutumapai
 
 **Arvonlisäys**
 - I = 33 × 1 000 = 33 000 M€; kotim = 33 000 × 20,83 % = 6 875,0 M€; M_inv = (33 000 − 6 875,0) + 6 875,0 × 20 % = 27 500,0 M€
-- rak_palkat = 40 623 × 45 000 € / 1 000 000 = 1 828,0 M€; kotim_palkkaosuus = 0,60 + 0,40 × 0,50 = 0,80
-- C_rak = 1 828,0 × 62,5 % × 0,80 = 914,0 M€; M_C_rak = 914,0 × 30 % = 274,2 M€
-- **BKT_rak = 33 000 + 914,0 − 27 500,0 − 274,2 = 6 139,8 M€ ≈ 6,1 mrd. €**
+- rak_palkat = 40 623 × 50 000 € / 1 000 000 = 2 031,2 M€; kotim_palkkaosuus = 0,60 + 0,40 × 0,50 = 0,80
+- C_rak = 2 031,2 × 62,5 % × 0,80 = 1 015,6 M€; M_C_rak = 1 015,6 × 30 % = 304,7 M€
+- **BKT_rak = 33 000 + 1 015,6 − 27 500,0 − 304,7 = 6 210,9 M€ ≈ 6,2 mrd. €**
 - mw = 33 × 30 = 990 MW; sahko_mwh = 990 × 0,85 × 8 760 h = 7,37 TWh; sahkokulut = 7,37 TWh × 60 €/MWh = 442,3 M€
 - henkilosto = 2 750 × 100 000 € / 1 000 000 = 275,0 M€; opex = 442,3 + 275,0 = 717,3 M€; X = 717,3 × 1,07 = 767,5 M€
 - M_sahko = 442,3 × 10 % = 44,2 M€; C_kaytto = 2,750 × (84 + 100,8) × 62,5 % = 317,6 M€; M_C_kaytto = 317,6 × 30 % = 95,3 M€
@@ -129,9 +129,9 @@ Alla samat kaavat auki laskettuina tämän teeman keskimmäisellä, toteutumapai
 
 **Verotulot, rakennusvaihe**
 - Yhteisövero = 2,750 × 42 = 115,5 M€; ALV = 2,750 × 33 = 90,8 M€
-- Tulovero: koko työllisyyspohja 40 623 htv (suorat + epäsuorat) Suomessa verotettuja 60 % → 24 374 htv × 10 287 €/htv = 2,750 × 91,17 = **250,7 M€**
+- Tulovero: koko työllisyyspohja 40 623 htv (suorat + epäsuorat) Suomessa verotettuja 60 % → 24 374 htv × 12 161 €/htv = 2,750 × 107,78 = **296,4 M€**
 - Kiinteistövero = 60,2 × 0,5 × 2 = 60,2 M€; Sähkövero = 0
-- **Yhteensä = 517,1 M€ ("≈ 517 milj. €")**
+- **Yhteensä = 562,8 M€ ("≈ 563 milj. €")**
 
 **Verotulot, käyttövaihe (vuodessa)**
 - Yhteisövero = 717,3 × 0,07 × 20 % = 10,0 M€; ALV = 2,750 × 7 = 19,2 M€; Tulovero: koko työllisyyspohja 6 050 htv/v (suorat + epäsuorat) → 2,750 × 44,22 = **121,6 M€/v**

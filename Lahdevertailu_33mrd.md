@@ -20,9 +20,9 @@ erikseen luvun 3 jälkeen, koska se ei tuota itsenäisiä kokonaislukuja.
 
 | Mittari | Oma malli (teema) | Oma panos-tuotos-selvitys | Ramboll (alkuperäinen, skaalattu) | VTT (2026, skaalattu) | Google (oma ilmoitus) |
 |---|---|---|---|---|---|
-| **Arvonlisäys** | 6,14 mrd. € (3,33–7,81) | 4,64–5,21 mrd. € (suora + välituotteiden epäsuora arvonlisäys, tuotantolähestymistapa) | n. 9,64 mrd. € (bruttoarvonlisäys) | n. 3,0–4,8 mrd. € (kotimainen arvonlisä/liikevaihto) | ei ilmoitettu |
+| **Arvonlisäys** | 6,21 mrd. € (3,39–7,90) | 4,64–5,21 mrd. € (suora + välituotteiden epäsuora arvonlisäys, tuotantolähestymistapa) | n. 9,64 mrd. € (bruttoarvonlisäys) | n. 3,0–4,8 mrd. € (kotimainen arvonlisä/liikevaihto) | ei ilmoitettu |
 | **Työllisyys** | 40 623 htv (38 161–44 316) | 37 800–52 300 htv | 123 750 htv | ei ilmoitettu selvityksessä | 40 623 htv¹ |
-| **Verotulot** | 517 milj. € (359–712) | 591–753 milj. € | n. 4,69 mrd. € | n. 1,4 mrd. € | ei ilmoitettu |
+| **Verotulot** | 563 milj. € (395–770) | 634–811 milj. € | n. 4,69 mrd. € | n. 1,4 mrd. € | ei ilmoitettu |
 
 ¹ Googlen oma luku (1 231 htv/mrd. €, Googlen 9/2026 ilmoituksesta koko
 Suomi-ohjelmalle) on **sama luku, jota oma mallimme käyttää lähtöarvonaan** –
@@ -37,15 +37,15 @@ vaan osoittaa mistä oman mallin luku on peräisin.
   arvonlisäys + sen ostamien kotimaisten välituotteiden kautta syntyvä
   epäsuora arvonlisäys, summattuna geometrisena sarjana), ei menoerittelyn
   BKT-vaikutus – ei siis suoraan sama käsite kuin oman mallin luku. Vaikka
-  välituotteiden arvonlisäys on nyt mukana, oman mallin luku (6 140 milj. €)
+  välituotteiden arvonlisäys on nyt mukana, oman mallin luku (6 211 milj. €)
   on edelleen selvästi korkeampi – tämä viittaa siihen, että oma malli
   (joka vähentää investoinnista vain tuonnin, ei kotimaisten välituotteiden
   käyttöä) käyttää löyhempää arvonlisäyksen käsitettä kuin kansantalouden
   tilinpidon virallinen määritelmä. Verotulot-rivi **ei sisällä
   kiinteistöveroa** (panos-tuotos-malli ei pysty sitä johtamaan), kun taas
-  oman mallin 517 milj. €:n luku sisältää kiinteistöveron (n. 60 milj. €)
-  – ilman sitä oman mallin vastaava luku olisi n. 457 milj. €, joka jää
-  nyt hieman panos-tuotos-haarukan (591–753 milj. €) alapuolelle.
+  oman mallin 563 milj. €:n luku sisältää kiinteistöveron (n. 60 milj. €)
+  – ilman sitä oman mallin vastaava luku olisi n. 503 milj. €, joka jää
+  nyt hieman panos-tuotos-haarukan (634–811 milj. €) alapuolelle.
 - **Ramboll**: skaalattu pääasiakirjan "Vertailu Rambollin laskelmiin"
   -taulukon per-mrd.-€-suhdeluvuilla (työllisyys 3 750 htv/mrd. €,
   bruttoarvonlisäys 292 milj. €/mrd. €, verotulot 142 milj. €/mrd. €) × 33.
@@ -114,11 +114,11 @@ rakennuspalikoista.
   3 750 htv/mrd. €:n bruttoarvioista, joka on tässä projektissa jo aiemmin
   korvattu Googlen omaan ilmoitukseen perustuvalla, matalammalla luvulla.
 - **Rakennusvaiheen verotulot**: Ramboll (4,69 mrd. €) ja VTT (1,4 mrd. €)
-  ovat molemmat selvästi korkeampia kuin oma malli (517 milj. €) ja oma
-  panos-tuotos-selvitys (591–753 milj. €) – jälkimmäiset kaksi ovat
+  ovat molemmat selvästi korkeampia kuin oma malli (563 milj. €) ja oma
+  panos-tuotos-selvitys (634–811 milj. €) – jälkimmäiset kaksi ovat
   keskenään samaa suuruusluokkaa, mikä tukee niiden uskottavuutta suhteessa
   Rambollin/VTT:n korkeampiin, osin eri laskentaperustein tehtyihin arvioihin.
-- **Rakennusvaiheen arvonlisäys**: oma malli (6,14 mrd. €) on edelleen
+- **Rakennusvaiheen arvonlisäys**: oma malli (6,21 mrd. €) on edelleen
   selvästi korkeampi kuin oma panos-tuotos-selvitys (4,64–5,21 mrd. €),
   myös sen jälkeen kun panos-tuotos-malli päivitettiin huomioimaan myös
   välituotteiden (toimitusketjun) tuottama arvonlisäys. Ero näyttää

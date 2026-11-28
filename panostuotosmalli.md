@@ -88,7 +88,7 @@ merkitty alla:
 | Toimitusketjun (upstream-toimialojen, va1) arvonlisäysosuus tuotoksesta | 25-35 % (piste 30 %) | **[PT-oletus]** | Rakennusalan välituotteiden toimittajien (betoni, teräs, konevuokraus = matalampi VA-osuus; suunnittelu, logistiikka = korkeampi) arvioitu keskiarvo. Ei vahvistettu Suomen toimialakohtaisista taulukoista |
 | Toimintaylijäämän (voiton) osuus arvonlisäyksestä, rakentaminen | 27 % | **[PT-oletus]** | Käytetty yhteisöveron arviointiin (koskee koko arvonlisäystä, suora+epäsuora) |
 | Sähkötoimialan (D) suora työpanoskerroin | 300-600 htv / mrd. € tuotosta | **[PT-oletus]** | Pääomavaltainen toimiala; ei vahvistettu tarkkaa Suomen lukua |
-| Keskipalkka, tulovero/työntekijä | 45 000 €/v, 10 286,89 €/työntekijä | **[M/O]** peritty pääasiakirjan mallista (2026 veroasteikko) | Käytetty sellaisenaan vertailukelpoisuuden vuoksi |
+| Keskipalkka, tulovero/työntekijä | 50 000 €/v, 12 160,53 €/työntekijä | **[M/O]** peritty pääasiakirjan mallista (2026 veroasteikko, Tilastokeskuksen rakennusalan mediaaniin ja TES-korotuksiin päivitetty) | Käytetty sellaisenaan vertailukelpoisuuden vuoksi |
 | Suomalaisten/kotimaisten työntekijöiden osuus | 60 % (keskim.) | **[M]** peritty pääasiakirjan mallista | - |
 | Kotimainen osuus investoinnista, tuontisisältö (d) | 2 500/12 000 ≈ 20,8 %; 20 % | **[M]** peritty pääasiakirjan mallista | Sama lähtökohta kuin pääasiakirjassa. d = 1 - 20 % = 80 % kotimaisten välituoteostojen osuudeksi - oletettu samaksi jokaisella toimitusketjun kierroksella (yksinkertaistus) |
 | ALV:n osuus palkkojen kulutuksesta, joka on ALV:llista | 70 % | **[PT-oletus]** | Karkea oletus: osa kulutuksesta on ALV-vapaata tai yritysten välistä, vähennyskelpoista. Ei ollut aiemmin tässä taulukossa, vaikka sitä käytettiin luvun 4 laskennassa |
@@ -133,15 +133,17 @@ toimitusketjun ensimmäisen kierroksen alihankkijat tuottavat arvonlisäystä,
 sen sijaan että luottaisi yhteen yleiseen kirjallisuuskertoimeen.)
 
 **Verotulot** (ei sisällä kiinteistöveroa):
-- Tulovero (koko Tyyppi I -työllisyydelle, 60 % kotimaisia, 10 286,89
-  €/työntekijä): **233-323 milj. €** (ei muuttunut - ei riipu
-  arvonlisäyksestä)
+- Tulovero (koko Tyyppi I -työllisyydelle, 60 % kotimaisia, 12 160,53
+  €/työntekijä): **276-382 milj. €** (ei riipu arvonlisäyksestä, mutta
+  kasvoi keskipalkan 45 000 € -> 50 000 € -päivityksen myötä)
 - Yhteisövero (27 % arvonlisäyksestä voittona, 20 % yhteisöverokanta,
   uudella arvonlisäysluvulla): 4 640×0,27×0,20 ... 5 210×0,27×0,20 =
   **251-281 milj. €**
 - Arvonlisävero (karkea arvio palkkojen kulutusosasta): **107-148 milj. €**
-  (ei muuttunut - ei riipu arvonlisäyksestä)
-- **Yhteensä: n. 591-753 milj. €**
+  (ei päivitetty - laskentakaavaa ei ole tässä muistiossa avattu riittävän
+  tarkasti, jotta keskipalkan muutoksen vaikutuksen voisi laskea luotettavasti
+  uudelleen; tarkista tämä rivi erikseen ennen kuin sitä käytetään)
+- **Yhteensä: n. 634-811 milj. €** (ilman ALV-rivin mahdollista päivitystä)
 
 ### Vertailu pääasiakirjaan
 
@@ -149,22 +151,22 @@ sen sijaan että luottaisi yhteen yleiseen kirjallisuuskertoimeen.)
 |---|---|---|
 | Työllisyys (kok.) | 40 600 htv | 37 800-52 300 htv |
 | joista kotimaisia/verotettavia | 18 400 (suorat) | 22 700-31 400 (60 % Tyyppi I:stä) |
-| Arvonlisäys/BKT-vaikutus | 6 140 milj. € (BKT, menoerittely) | 4 640-5 210 milj. € (arvonlisäys, tuotantolähestymistapa, välituotteiden arvonlisäys mukaan lukien - eri käsite, ks. luku 1) |
-| Verotulot (ilman kiinteistöveroa) | 456,9 milj. € | 591-753 milj. € |
+| Arvonlisäys/BKT-vaikutus | 6 211 milj. € (BKT, menoerittely) | 4 640-5 210 milj. € (arvonlisäys, tuotantolähestymistapa, välituotteiden arvonlisäys mukaan lukien - eri käsite, ks. luku 1) |
+| Verotulot (ilman kiinteistöveroa) | 502,6 milj. € | 634-811 milj. € |
 
 **Havainto.** Kokonaistyöllisyysarvio on samaa suuruusluokkaa molemmilla
 menetelmillä - panos-tuotos-haarukka asettuu pääasiakirjan luvun (40 600)
 molemmin puolin. Pääasiakirja on sittemmin päivitetty laskemaan tuloveron
 koko työllisyyspohjalta (suorat + aliurakoitsijaketjun epäsuorat
 työntekijät) tämän muistion alkuperäisen havainnon pohjalta - ks. yllä oleva
-päivityshuomautus. Tämän jälkeen pääasiakirjan verotuloarvio (456,9 milj. €)
-jää hieman panos-tuotos-haarukan (591-753 milj. €) alapuolelle, eli
+päivityshuomautus. Tämän jälkeen pääasiakirjan verotuloarvio (502,6 milj. €)
+jää hieman panos-tuotos-haarukan (634-811 milj. €) alapuolelle, eli
 menetelmät tukevat nyt toisiaan huomattavasti paremmin kuin ennen
 päivitystä (jolloin pääasiakirjan luku oli vain 320 milj. €), vaikkakaan
 eivät enää osu yhtä tarkasti yksiin kuin ennen arvonlisäyksen
 välituotelaskennan päivitystä (ks. yllä, luku 4).
 
-Sen sijaan **arvonlisäys-rivillä pääasiakirjan luku (6 140 milj. €) on
+Sen sijaan **arvonlisäys-rivillä pääasiakirjan luku (6 211 milj. €) on
 edelleen selvästi korkeampi** kuin panos-tuotos-mallin päivitetty arvio
 (4 640-5 210 milj. €) - myös sen jälkeen, kun panos-tuotos-malli nyt
 huomioi eksplisiittisesti myös toimitusketjun (välituotteiden) tuottaman
@@ -173,7 +175,7 @@ panos-tuotos-malli unohtaisi epäsuoran arvonlisäyksen, vaan siitä, että
 pääasiakirjan oma BKT-laskenta (I - M_inv, eli investoinnista vähennetään
 vain tuonti) vastaa löyhempää arvonlisäyksen käsitettä kuin kansantalouden
 tilinpidon virallinen tuotos miinus välituotekäyttö -määritelmä, jota
-panos-tuotos-malli noudattaa tarkemmin. Pääasiakirjan 6 140 milj. €:n luku
+panos-tuotos-malli noudattaa tarkemmin. Pääasiakirjan 6 211 milj. €:n luku
 saattaa siis yliarvioida rakennusvaiheen BKT-vaikutuksen lievästi.
 
 ## 5. Käyttövaihe (vuodessa, 33 mrd. €, keskimmäinen skenaario)
@@ -222,11 +224,11 @@ arvioon (378,1 milj. €/v) nähden.
   pääasiakirjan aiempi "vain suorat työntekijät" -rajaus tuloverossa saattoi
   aliarvioida todellista verokertymää, on johtanut pääasiakirjan ja teeman
   päivittämiseen - tulovero lasketaan nyt koko työllisyyspohjalta. Luvut
-  ovat tämän jälkeen huomattavasti lähempänä toisiaan (456,9 vs.
-  591-753 milj. €).
+  ovat tämän jälkeen huomattavasti lähempänä toisiaan (502,6 vs.
+  634-811 milj. €).
 - **Rakennusvaiheen arvonlisäys**: tämän, nyt välituotteiden arvonlisäyksen
   huomioivan laskelman (4 640-5 210 milj. €) jälkeenkin pääasiakirjan oma
-  luku (6 140 milj. €) on selvästi korkeampi. Tämä viittaa siihen, että
+  luku (6 211 milj. €) on selvästi korkeampi. Tämä viittaa siihen, että
   pääasiakirjan BKT-laskentatapa (investoinnista vähennetään vain tuonti,
   ei kotimaisten välituotteiden käyttöä) vastaa löyhempää arvonlisäyksen
   käsitettä kuin kansantalouden tilinpidon virallinen määritelmä - ei

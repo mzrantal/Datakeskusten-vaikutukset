@@ -19,6 +19,9 @@ näytetään tunnuslukuina, kuvina ja taulukoina (myös CSV-lataus). Sovellus k�
 laskentamallia kuin komentoriviskripti.
 
 - Julkaistu versio: <https://mzrantal.github.io/Datakeskusten-vaikutukset/>
+- Cloudflare Pages: <https://datakeskusten-vaikutukset.pages.dev>
+  (`.github/workflows/cloudflare-pages.yml`; vaatii repon salaisuudet
+  `CLOUDFLARE_API_TOKEN` ja `CLOUDFLARE_ACCOUNT_ID`)
 - Paikallinen ajo repositorion juuresta: `shiny::runApp("app")` (vaatii paketit `shiny` ja `bslib`)
 
 Julkaisu tehdään automaattisesti GitHub Actionsilla (`.github/workflows/shinylive.yml`)

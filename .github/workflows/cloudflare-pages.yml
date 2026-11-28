@@ -1,0 +1,56 @@
+# Kokoaa Shiny-sovelluksen shinylive-sivustoksi ja julkaisee sen Cloudflare Pagesiin.
+# Tarvitsee repon salaisuudet CLOUDFLARE_API_TOKEN (oikeus: Cloudflare Pages: Edit)
+# ja CLOUDFLARE_ACCOUNT_ID. Osoite: https://datakeskusten-vaikutukset.pages.dev
+name: Julkaise Cloudflare Pagesiin
+
+on:
+  push:
+    branches:
+      - claude/datacenter-investment-impact-f7k9ay
+      - claude/tender-gauss-2wlge6
+    paths:
+      - "app/**"
+      - "datakeskus_vaikutukset.R"
+      - ".github/workflows/cloudflare-pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cloudflare-pages
+  cancel-in-progress: true
+
+env:
+  CF_PROJECT: datakeskusten-vaikutukset
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::shinylive
+            any::shiny
+            any::bslib
+
+      - name: Kokoa sivusto
+        run: |
+          cp datakeskus_vaikutukset.R app/
+          Rscript -e 'shinylive::export("app", "site")'
+
+      - name: Julkaise
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          # Luo projektin ensimmäisellä kerralla (virhe ohitetaan, jos se on jo olemassa)
+          preCommands: npx wrangler pages project create ${{ env.CF_PROJECT }} --production-branch=main || true
+          command: pages deploy site --project-name=${{ env.CF_PROJECT }} --branch=main
